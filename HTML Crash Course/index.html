@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    <!--Title of the Browser Tab-->
+    <title> Dion's Coding Website </title>
+        <body>
+            <header>
+                <a href ="youtube.html">DS YouTube Site</a>
+            </header>
+            
+            <!--Header Tags-->
+            <h1> DS Programming Langauge </h1>
+            <h2> DS Programming Langauge </h2>
+            <h3> DS Programming Langauge </h3>  
+            <h4> DS Programming Langauge </h4> 
+            <h5> DS Programming Langauge </h5> 
+            <h6> DS Programming Langauge </h6>
+
+            <!--Paragraph Tags (p Tags)-->
+            <hr>
+            <p><a href = "https://www.instagram.com/dion_ms8/" target ="_blank"> Dion will be an epic developer</a></p>
+
+
+            <p>My cat Lucky has a lot of adventures. Yesterday she caught a mouse, and this morning she caught two!</p>
+            <p>Paragraph 3</p>
+
+            <a href="https://www.instagram.com/dion_ms8/" target = "_blank">Dion's Profile</a>
+            <br>
+            <a href="https://www.instagram.com/bribri_orie/" target = "_blank">Bryanna's Profile</a>
+
+            <!--<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus mollitia veniam illo recusandae tempora eveniet ea dignissimos, adipisci doloremque totam nostrum veritatis minus ipsum magni rem tempore quibusdam dolorum explicabo?</p>--> 
+
+            <br>
+            <br>
+            <br>
+            <hr>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FNGoExJlLQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+            <hr>
+
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/ddec4gr-7c7439f0-83ec-4885-9c38-13dd2ae33b23.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODRkYzEzYjctYTJlNy00YjQ1LTgzZWMtMzExZTcyZTgyOTAwXC9kZGVjNGdyLTdjNzQzOWYwLTgzZWMtNDg4NS05YzM4LTEzZGQyYWUzM2IyMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.yYuKfdApeKhbDBDy-dcASf_ykBX9b_UG5R0Q2hz9Ev8" alt="Goku" width ="200" height = "300">
+            <img src="https://w7.pngwing.com/pngs/955/349/png-transparent-dragon-ball-z-super-saiyan-vegeta-vegeta-goku-piccolo-gohan-trunks-vegeta-cartoon-fictional-character-action-figure.png" alt="Vegeta" width ="300" height = "300">
+
+            <hr>
+
+            <!--Unordered Lists-->
+            <ul>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>PHP</li>
+            </ul>
+
+            <!--Ordered Lists-->
+            <ol>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>Java</li>
+                <li>PHP</li>
+            </ol>
+
+            <hr>
+            
+            <!--Creating a Form-->
+            <form action="/" method ="GET"/>
+
+            <div>
+                    <label> Name:
+                    <input type ='text' name = 'name'/>
+                    </label>
+            </div>
+                
+                <div>
+                        <label> Email:
+                        <input type ='email'  name = 'email'/>
+                        </label>
+                </div>
+                
+                <input type = 'submit'><br>
+                <input type = 'submit' value = 'Click Here'>
+
+                <!--Dropdown Box in HTML-->
+                <div>
+                <select>
+                    <option value="random">Random</option>
+                    <option value="goku">Goku</option>
+                    <option value="vegeta">Vegeta</option>
+                    <option value="trunks">Trunks</option>
+                    <option value="gohan">Gohan</option>
+                </select>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+            </form>
+
+            <!--/ means facebook.com-->
+            <!--/about means facebook.com/about-->
+            
+            <img class = "dbz trunks" src= "https://cdn.player.one/sites/player.one/files/styles/lg/public/2016/05/09/future-trunks-dbz-dragon-ball-z.jpg" width = 500 height = 200>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <img class = "supersaiyan" src = "https://i.ytimg.com/vi/mDz4XogBAb0/maxresdefault.jpg" width = 500 height = 200>
+
+            <iframe class = "video" width="495" height="250" src="https://www.youtube.com/embed/cssJr-lcAt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+
+
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+                <p>Lorem ipsum...</p>
+            </div>
+
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <p>Lorem ipsum...</p>
+            </div>
+
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum...</p>
+            </div>
+            
+            <!-- JavaScript Code--> 
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                    } else {
+                    panel.style.display = "block";
+                    }
+                });
+                }
+            </script>
+            
+            /* Style the buttons that are used to open and close the accordion panel */
+
+            <style>
+                .accordion {
+                    background-color: grey;
+                    color: white;
+                    font-family: Segoe UI;
+                    cursor: pointer;
+                    padding: 18px;
+                    width: 100%;
+                    text-align: left;
+                    border: none;
+                    outline-color: black;
+                    transition: 0.4s;
+                }
+                
+                /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+                .active, .accordion:hover {
+                    background-color: lightgrey;
+                }
+                
+                /* Style the accordion panel. Note: hidden by default */
+                .panel {
+                    padding: 0 18px;
+                    background-color: gold;
+                    display: none;
+                    overflow: hidden;
+                }
+
+                .accordion:after {
+                    content: '\02795'; /* Unicode character for "plus" sign (+) */
+                    font-size: 13px;
+                    color: goldenrod;
+                    float: right;
+                    margin-left: 5px;
+                }
+                
+                .active:after {
+                    content: "\2796"; /* Unicode character for "minus" sign (-) */
+                }
+
+            </style>
+
+        </body>
+
+    </head> 
+
+</html>
