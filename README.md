@@ -22,3 +22,4 @@ This repo contains the code written during my journey to mastering the fundament
 ## References
 
 - Front-End Web Development Course on Udemy 
+- W3Schools
