@@ -1,12 +1,23 @@
-/**** CHANGING THE COLOUR OF ALL PARAGRAPH ELEMENTS ****/
-p {
+/******************************************************************************
 
-    color: red
-    
+<LINK REL="STYLESHEET" HREF="STYLE.CSS"/>
+
+THE * SELECTOR IS USED TO REFERENCE EVERYTHING WITHIN THE DOM
+
+selector {
+    property1: value;
+    property2: value;
 }
 
 
 
+
+
+
+
+
+
+********************************************************************************/
 
 
 
