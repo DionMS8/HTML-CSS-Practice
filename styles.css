@@ -1,3 +1,5 @@
+/* UNDERSTANDING THE BOX-MODEL */
+
 .box {
     height: 100px;
     width: 100px;
@@ -6,4 +8,53 @@
     border: 10px solid blueviolet;
     background-color: greenyellow;
 }
+
+/* Colours are specified using predefined colour names, or RGB, HEX, HSL, RGBA, HSLA values. */
+
+/*===================================================================================================================================================
+
+/* MARGINS FOR EACH SIDE OF AN ELEMENT
+-----------------------------------------
+
+    All margin properties can have the following values:
+
+    auto - the browser calculates the Margins
+
+    length - specifies a margin in px, pt, cm
+
+    % - specifies a margin in % of the width of the containing element
+
+    inherit - specifies that the margin should be inherited from the parent element */
+
+
+    /* margin-top */
+
+
+    /* margin-right */
+
+
+    /* margin-bottom */
+
+
+    /* margin-left */
+
+
+
+/*===========================================================================================================================================*/
+
+
+/* PADDING
+-------------
+
+    Padding is used to create space around an elements content, inside of any defined borders.
+
+    With CSS, you have full control over the padding.  There are properties for setting the padding for each side of an element(top, right, bottom and left)
+
+    /* padding-top */
+
+    /* padding-right */
+
+    /* padding-bottom */
+
+    /* padding-left */
 
