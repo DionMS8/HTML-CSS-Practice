@@ -19,15 +19,15 @@ This repo contains the code written during my journey to mastering the fundament
 ## Topics Covered
 
 ### HTML
-- Headers
-- Div and Span
-- Lists
-- Images/Videos
+- Headers ✔
+- Div and Span ✔
+- Lists ✔
+- Images/Videos ✔
 
 ### CSS
-- Selectors
-- Margins
-- Padding
+- Selectors ✔
+- Margins ✔
+- Padding ✔
 
 
 ## References
