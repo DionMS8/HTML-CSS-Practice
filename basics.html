@@ -1,101 +1,136 @@
-<!DOCTYPE html>
+<!DOCTYPE html>   <!--THIS DEFINES THE VERSION OF (X)HTML BEING USED-->
 
-<html lang="en">
+<html lang="en"> <!--THIS SPECIFIES THAT THE FILE IS A HTML DOCUMENT WITH ENGLISH SYNTAX-->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning HTML and CSS</title>
-    <link rel="stylesheet" href="styles.css" >
-</head>
+    <head> <!--THIS SECTION DESCRIBES WEB PAGE INFORMATION-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learning HTML and CSS</title>
+        <link rel="stylesheet" href="styles.css" >
+    </head>
 
-<body>
+    <body> <!--THIS SECTION DESCRIBES THE CONTENTS OF THE WEB PAGE-->
 
-    <div id="Body"> 
-        <h2>Body:</h2>
-        <p>A body element contains all the content that can be displayed to the screen. </p>
-        <p>Used by adding "body" between opening and closing tags.</p>
-    </div>
+        <div id="Body"> 
+            <h2>Body:</h2>
+            <p>A body element contains all the content that can be displayed to the screen. </p>
+            <p>Used by adding "body" between opening and closing tags.</p>
+        </div>
 
-    <div id="Headings">
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
-    </div>
+        <div id="Headings">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </div><br>
 
-    <div id="Divs"> 
-        <h2>Divs:</h2>
-        <p>Division is a container that divides the page or the DOM into sections.</p>
-    </div>
-
-    <div id="Attributes">
-        <h2>Attributes:</h2>
-        <p>Attributes are used to expand element's tags. Attributes are content added to the opening tag of an element and can be in several different ways, from providing information to changing styling.</p>
-        <p>Attributes consists of 2 parts:<br>
-        The name of the attribute<br>
-        And the value of the attribute.</p>
-        <p>I am mainly focusing on "id" for now to specify different content divs</p>
-    </div>
-    <div id="DisplayingText">
-        <h2>Displaying Text:</h2>
-        <p>Text can be displayed using paragraphs "p" or by using "span"</p>
-        <h3>Span</h3>
-        <p><span>"Span"</span> contains short pieces of text or other HTML. They are used to separate small pieces of content that are on the same line as other content.</p>
-    </div>
-    <div id="StylingText">
-        <h2>Styling Text:</h2>
-        <p>You can perform italics on certain text by adding <em>"em"</em> in open and close tags or bold text by adding <strong>"strong"</strong> between open and close tags.</p>
-    </div>
-
-    <!-----LISTS-------------------------------------------------------------------------------------------------------------------------------------->
-
-    <!--
-        <ol> : Ordered list
-        <ul> : Unordered list
-        <li> : List item
-        <dl> : Definition list
-        <dt> : Definition term
-        <dd> : Term description
-    -->
-
-        <h2>Unordered Lists</h2>
-            <ul>
-                <li>Javascript</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>PHP</li>
-            </ul>
-
-        <h2>Ordered Lists</h2>
-            <ol>
-                <li>Python</li>
-                <li>Javascript</li>
-                <li>Java</li>
-                <li>PHP</li>
-            </ol>
+        <div id="Divs"> 
+            <h2>Divs:</h2>
+            <p>Division is a container that divides the page or the DOM into sections.</p>
+        </div><br>
 
 
-    <!---------------------------------------------------------------------------------------------------------------------------------------------->
- 
-    <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="Brown Bear"/> 
+        <!----BOX MODEL---->
+        <h2>Box-Model</h2>
+        <div class = "box"> </div>
 
-    <div id="Videos">
-        <h2>Videos</h2>
-        <p>Similar to the "img" tag, the "video" tag does the same but for video.</p>
-        <p>However, it is not a single tag element and requires opening and closing tags.</p>
-        <p>eg. "< video src = " myVideo.mp4 " width="320" height="240" controls> <br>
-            Video not supported <br>
-          < / video >"</p>
-        <p>After the src attribute, the width and height attributes are used to set the size of the video displayed in the browser. The controls attribute instructs the browser to include basic video controls: pause, play and skip</p>
-        <p>The text, “Video not supported", between the opening and closing video tags will only be displayed if the browser is unable to load the video.</p>
-        <video scr="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>
-        Video not supported</video>
-    </div>
 
-</body>
+        <div id="Attributes">
+            <h2>Attributes:</h2>
+            <p>Attributes are used to expand element's tags. Attributes are content added to the opening tag of an element and can be in several different ways, from providing information to changing styling.</p>
+            <p>Attributes consists of 2 parts:<br>
+            The name of the attribute<br>
+            And the value of the attribute.</p>
+            <p>I am mainly focusing on "id" for now to specify different content divs</p>
+        </div>
+        <div id="DisplayingText">
+            <h2>Displaying Text:</h2>
+            <p>Text can be displayed using paragraphs "p" or by using "span"</p>
+            <h3>Span</h3>
+            <p><span>"Span"</span> contains short pieces of text or other HTML. They are used to separate small pieces of content that are on the same line as other content.</p>
+        </div>
+
+        <!-----LISTS-------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!--
+            <ol> : Ordered list
+            <ul> : Unordered list
+            <li> : List item
+            <dl> : Definition list
+            <dt> : Definition term
+            <dd> : Term description
+
+        list-style-type:
+
+            ul {list-style-type: circle;}
+            ul {list-style-type: square;}
+
+            ol {list-style-type: upper-roman;}
+            ol {list-style-type: lower-alpha;}
+
+        list-style-type: none; (removes bullet points)
+
+        -->
+
+            <h2>Unordered Lists</h2>
+                <ul>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>PHP</li>
+                </ul>
+
+            <h2>Ordered Lists</h2>
+                <ol>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>Java</li>
+                    <li>PHP</li>
+                </ol>
+
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------->
+    
+        <img class = "dbz trunks" src= "https://cdn.player.one/sites/player.one/files/styles/lg/public/2016/05/09/future-trunks-dbz-dragon-ball-z.jpg" width = 500 height = 200>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <img class = "supersaiyan" src = "https://i.ytimg.com/vi/mDz4XogBAb0/maxresdefault.jpg" width = 500 height = 200>
+
+            <iframe class = "video" width="495" height="250" src="https://www.youtube.com/embed/cssJr-lcAt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+        <div id="Videos">
+            <h2>Videos</h2>
+            <p>Similar to the "img" tag, the "video" tag does the same but for video.</p>
+            <p>However, it is not a single tag element and requires opening and closing tags.</p>
+            <p>eg. "< video src = " myVideo.mp4 " width="320" height="240" controls> <br>
+                Video not supported <br>
+            < / video >"</p>
+            <p>After the src attribute, the width and height attributes are used to set the size of the video displayed in the browser. The controls attribute instructs the browser to include basic video controls: pause, play and skip</p>
+            <p>The text, “Video not supported", between the opening and closing video tags will only be displayed if the browser is unable to load the video.</p>
+            <video scr="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>
+            Video not supported</video>
+        </div>
+
+
+        <!--FORMS-->
+
+        <form> : Form Component
+        <fieldset> : Collection of fields
+        <legend> : Form legend
+        <label> : Input label
+        <input /> : Form input component
+        <textarea> : Large text input
+        <select> : Drop-down Box
+        <option> : Drop-down options
+        <button> : Standard Button
+
+
+    </body>
 
 </html>
