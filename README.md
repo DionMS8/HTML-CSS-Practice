@@ -16,10 +16,21 @@ This repo contains the code written during my journey to mastering the fundament
 - HTML5
 - CSS3
 
-## Screenshots
+## Topics Covered
+
+### HTML
+- Headers ✔
+- Div and Span ✔
+- Lists ✔
+- Images/Videos ✔
+
+### CSS
+- Selectors ✔
+- Margins ✔
+- Padding ✔
 
 
 ## References
 
-- Front-End Web Development Course on Udemy 
+- Front End Web Development Ultimate Course 2021 on Udemy 
 - W3Schools
