@@ -1,15 +1,23 @@
-/* UNDERSTANDING THE BOX-MODEL */
+/* CSS USES SELECTORS AND DECLARATION BLOCKS */
 
+/* STYLING ALL ELEMENTS WITHIN THE HTML BODY */
+body {
+    background-color: grey;
+}
+
+/* UNDERSTANDING THE BOX-MODEL */
 .box {
     height: 100px;
     width: 100px;
     padding: 20px;
     margin: 50px;
     border: 10px solid blueviolet;
-    background-color: greenyellow;
+    background-color: greenyellow; 
 }
 
-/* Colours are specified using predefined colour names, or RGB, HEX, HSL, RGBA, HSLA values. */
+
+/* COLOURS CAN BE SPECIFIED USING PREDEFINED COLOUR NAMES or RGB, HEX, 
+HSL, RGBA, HSLA values. */
 
 /*===================================================================================================================================================
 
@@ -57,4 +65,34 @@
     /* padding-bottom */
 
     /* padding-left */
+
+/*===========================================================================================================================================*/
+
+/* BORDERS
+-------------------
+
+    The CSS border properties allow you to specify the style, width and color of an elements border. */
+
+    /* dotted - Defines a dotted border */
+
+    /* dashed - Defines a dashed border */
+
+    /* solid - Defines a solid border */
+
+    /* double - Defines a double border */
+
+    /* groove - Defines a 3D grooved border.  The effect depends on the border-color value */
+
+    /* ridge - Defines a 3D ridged border.  The effect depends on the border-color value */
+
+    /* inset - Defines a 3D inset border.  The effect depends on the border-color value */
+
+    /* outset - Defines a 3D outset border.  The effect depends on the border-color value */
+
+    /* none - Defines no border */
+
+    /* hidden - Defines a hidden border */
+
+
+/*===========================================================================================================================================*/
 
