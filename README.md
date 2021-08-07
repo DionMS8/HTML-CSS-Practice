@@ -19,6 +19,7 @@ This repo contains the code written during my journey to mastering the fundament
 ## Topics Covered
 
 ### HTML
+- Semantic HTML ✔
 - Headers ✔
 - Div and Span ✔
 - Lists ✔
@@ -28,6 +29,11 @@ This repo contains the code written during my journey to mastering the fundament
 - Selectors ✔
 - Margins ✔
 - Padding ✔
+- Backgrounds ✔
+- Borders ✔
+- Box-Model Layout ✔
+- Display Properties ✔
+- Floats ✔
 
 
 ## References
