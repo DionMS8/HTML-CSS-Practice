@@ -9,59 +9,139 @@
 
   <body>
 
-    <h1>SEMANTIC HTML!</h1>
-    <ul>
-      <li><a href='#'>Home</a></li>
-      <li><a href='#'>About</a></li>
-      <li><a href='#'>Blog</a></li>
-      <li><a href='#'>Sign Up</a></li>
-    </ul>
+    <div class = "webpage">
 
-    <article>
-        <h1>First Post</h1>
-        <p>Some content</p>
-    </article>
+        <h1>SEMANTIC HTML</h1>
+
+        <nav>
+            <ul>
+            <li><a href='#'>Home</a></li>
+            <li><a href='#'>About</a></li>
+            <li><a href='#'>Blog</a></li>
+            <li><a href='#'>Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>First Post</h1>
+            <p>Some content</p>
+        </article>
+
+        <article>
+            <h1>Second Post</h1>
+            <p>Some more content</p>
+            <h2>Subsection</h2>
+            <p>Some details</p>
+        </article>
+
+        <article>
+            <h1>Last Post</h1>
+            <p>Final bit of content</p>
+        </article>
+
+        <article>
+
+            <header>
+                <h1>Semantic HTML</h1>
+                <p>By Troy McClure. Published January 3rd</p>
+            </header>
     
-    <article>
-        <h1>Second Post</h1>
-        <p>Some more content</p>
-        <h2>Subsection</h2>
-        <p>Some details</p>
-    </article>
+            <aside class='advert'>
+                <img src='some-advert-image.png'/>
+            </aside>
 
-    <article>
-        <h1>Last Post</h1>
-        <p>Final bit of content</p>
-    </article>
+        </article>
+
+        <aside class='sidebar'>
+
+            <h2>Sidebar</h2>
+            <p>Some sidebar content</p>
+
+            <nav>
+                <h3>HTML &amp; CSS Tutorial</h3>
+                <ul>
+                <li><a href='#'>Introduction</a></li>
+                <li><a href='#'>Basic Web Pages</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h3>JavaScript Tutorial</h3>
+                <ul>
+                <li><a href='#'>Introduction</a></li>
+                <li><a href='#'>Hello, JavaScript</a></li>
+                </ul>
+            </nav>
+
+        </aside>
+
+        <figure>
+            <img src='semantic-elements.png' alt='Diagram showing <article>, <section>, and <nav> elements'/>
+            <figcaption>New HTML5 semantic elements</figcaption>
+        </figure>
+
+        <footer>
+            </strong> <p> Copyright DMS8 2021 <p> </strong>
+        </footer>
+
+    </div>
 
   </body>
 
 </html>
 
 
-<!---------------------------------------------------------------------------------------------------------------------------------------------------
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+***** SEMANTIC HTML NOTES *************************************************************************************************************************************************** 
 
 - WRITING HTML MARKUP TO ADD MORE MEANING TO THE CONTENT OF A WEB PAGE 
 - THIS MAKES MAINTAINING THE WEBSITE MUCH EASIER AND MORE ORGANIZED
 
-- USING SECTIONING ELEMENTS OVER <DIV> ELEMENTS TO ELIMINATE AMBIGUITY
 
-- <HEADER>
-- <NAV>
-- <ARTICLE>
-- <FIGURE>
-- <ASIDE>
-- <FOOTER>
+***** BEST PRACTICES *********************************************************************************************************************************************************
+
+- WRAP A WEBSITE'S NAME/LOGO AND MAIN NAVIGATION MENU IN A HEADER
+- USE <STRONG> TAGS INSTEAD <B> FOR BOLD TEXT 
+- USE SECTIONING ELEMENTS OVER <DIV> ELEMENTS TO ELIMINATE AMBIGUITY
+- DIVS CAN BE USED FOR PURELY LAYOUT PURPOSES
 
 
-- USING <STRONG> TAGS INSTEAD <B> FOR BOLD TEXT 
+***** SECTIONING ELEMENTS **************************************************************************************************************************************************
+
+- <HEADER> - CONTAINS INTRODUCTORY CONTENT FOR A SECTION OR THE OVERALL WEB PAGE
+- <NAV> - THIS CAN ENCLOSE A SET OF LINKS SUCH AS A MENU BAR
+- <ARTICLE> 
+- <FIGURE> - THIS CAN ENCLOSE AN IMAGE
+- <FIGCAPTION> - ADDS A CAPTION TO AN IMAGE PLACED WITHIN <FIGURE> TAGS
+- <ASIDE> - USED TO PLACE 
+- <FOOTER> - USED FOR COPYRIGHT NOTICES, FOOTER NAVIGATION, AUTHOR BIOS ETC.
+
 
 - EVERY HTML DOCUMENT HAS AN OUTLINE WHICH REPRESENTS HOW SEARCH ENGINES 
 AND SCREEN READERS VIEW THE HIERARCHY OF THE CONTENT OF THE WEB PAGE
 
+- <FIGCAPTION> IS DISPLAYED WITH AN IMAGE WHILE THE ALT ATTRIBUTE IS A 
+REPLACEMENT TEXT FOR THE IMAGE THAT CAN BE USED BY SCREEN READERS. HOWEVER 
+AN ALT ATTRIBUTE MAY BE REPETITITVE IF A <FIGCAPTION> IS PROVIDED.
+
+- HEADERS CAN ALSO BE PLACED WITHIN ARTICLES TO SHOW INFO SUCH AS TITLE, 
+AUTHOR AND PUBLICATION DATE
+
+
+- USING SEMANTIC ELEMENTS INCORRECTLY IS WORSE THAN NOT USING THEM AT ALL
 
 
 
+***** SEMANTIC ELEMENTS IN LEGACY BROWSERS ********************************************************************************************************************************
 
----------------------------------------------------------------------------->
+section, article, aside, footer, header, nav {
+  display: block;
+}
+
+THE CODE SNIPPET ABOVE ALLOWS ALL OF THE ELEMENTS TO BEHAVE LIKE <DIV> 
+ELEMENTS, WHICH ARE BLOCK BOXES.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
