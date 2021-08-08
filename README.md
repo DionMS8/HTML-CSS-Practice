@@ -5,7 +5,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Screenshots](#screenshots)
+* [Mini Projects](#mini-projects)
+* [Topics Covered](#topics-covered)
 * [References](#references)
 
 
