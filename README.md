@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/55777067/127402911-367481db-9bf8-4e71-8f55-edf044947e29.png)
 
 ## Table of contents
-* [General info](#general-info)
+* [General Info](#general-info)
 * [Technologies](#technologies)
 * [Mini Projects](#mini-projects)
 * [Topics Covered](#topics-covered)
