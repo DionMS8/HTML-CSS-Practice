@@ -16,7 +16,10 @@ This repo contains the code written during my journey to mastering the fundament
 - HTML5
 - CSS3
 
-## Topics Covered
+## Mini Projects
+- Blurry Loading Animation
+
+##Topics Covered
 
 ### HTML
 - Semantic HTML ✔
@@ -34,6 +37,7 @@ This repo contains the code written during my journey to mastering the fundament
 - Box-Model Layout ✔
 - Display Properties ✔
 - Floats ✔
+- Formatting Text ✔
 
 
 ## References
