@@ -28,6 +28,8 @@ This repo contains the code written during my journey to mastering the fundament
 - Div and Span ✔
 - Lists ✔
 - Images/Videos ✔
+- Links ✔
+- Tables ✔
 
 ### CSS
 - Selectors ✔
@@ -39,6 +41,7 @@ This repo contains the code written during my journey to mastering the fundament
 - Display Properties ✔
 - Floats ✔
 - Formatting Text ✔
+- Positioning ✔
 
 
 ## References
