@@ -7,24 +7,38 @@ body {
 }
 
 /* UNDERSTANDING THE BOX-MODEL */
-.box {
+/* THE BOX-MODEL - ADDS A BORDER TO AN ELEMENT AND SPACING BETWEEN ELEMENTS
+div.box-model {
     height: 100px;
     width: 100px;
     padding: 20px;
-    margin: 50px;
+    margin: 100px;
     border: 10px solid blueviolet;
     background-color: greenyellow; 
 }
 
+/* FORMATTING TEXT */
+h2.text {
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px greenyellow;
+}
+
+
+
+/*===================================================================================================================================================
+
+/* COLOURS */
 
 /* COLOURS CAN BE SPECIFIED USING PREDEFINED COLOUR NAMES or RGB, HEX, 
 HSL, RGBA, HSLA values. */
 
+
+
 /*===================================================================================================================================================
 
-/* THE BOX-MODEL - ADDS A BORDER TO AN ELEMENT AND SPACING BETWEEN ELEMENTS
-
-/* MARGINS - THE SPACING AROUND AN ELEMENT'S BORDER
+/* MARGINS - THE TRANSPARENT SPACING AROUND AN ELEMENT'S BORDER
 
     All margin properties can have the following values:
 
@@ -60,9 +74,9 @@ HSL, RGBA, HSLA values. */
  
 /*===========================================================================================================================================*/
 
-/* BORDERS
+/* BORDERS */
 
-    The CSS border properties allow you to specify the style, width and color of an elements border. */
+/*  The CSS border properties allow you to specify the style, width and color of an elements border. */
 
     /* dotted - Defines a dotted border */
     /* dashed - Defines a dashed border */
@@ -87,7 +101,8 @@ HSL, RGBA, HSLA values. */
 
 /*===========================================================================================================================================*/
 
-
+/* OUTLINE - THIS IS A LINE THAT IS DRAWN AROUND AN ELEMENT, OUTSIDE OF THE BORDER
+/* - THE OUTLINE EXISTS BETWEEN THE BORDER AND THE MARGIN
 
 
 
