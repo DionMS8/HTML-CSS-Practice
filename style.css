@@ -29,13 +29,13 @@ h2.text {
 /*FORMATTING TABLES */
 table, tr {
     border: 3px solid black;
-    width: 100%;
+    width: 100%; /* THIS MAKES THE TABLE RESPONSIVE SO THAT THE TABLE WIDTH WILL ADJUST ACCPORDING TO THE WIDTH OF THE WINDOW */
     background-color: gold;
 }
 
 td {
     border: 3px solid black;
-    width: 100%;
+    width: 100%; /* THIS MAKES THE TABLE RESPONSIVE SO THAT THE TABLE WIDTH WILL ADJUST ACCPORDING TO THE WIDTH OF THE WINDOW */
     background-color: goldenrod;
 }
 
@@ -55,6 +55,62 @@ a:hover {
 a:active {
     color: red;
 }
+
+/* CSS POSITIONING */
+div.static {
+    position: static;
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    border: 3px solid black;
+    text-align: center;
+}
+
+div.relative {
+    position: relative;
+    top: 40px;
+    left: 350px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 3px solid black;
+    text-align: center;
+}
+
+div.fixed {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: fuchsia;
+    border: 3px solid black;
+    text-align: center;
+    z-index: -1;
+}
+
+div.absolute {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    text-align: center;
+}
+
+div.sticky {
+    position: sticky;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+    border: 3px solid black;
+    text-align: center;
+}
+
 
 
 /*===================================================================================================================================================
