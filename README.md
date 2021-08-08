@@ -1,4 +1,4 @@
-# HTML-CSS-Practice
+# HTML/CSS Practice
 
 ![image](https://user-images.githubusercontent.com/55777067/127402911-367481db-9bf8-4e71-8f55-edf044947e29.png)
 
