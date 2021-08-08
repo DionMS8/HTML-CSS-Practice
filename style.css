@@ -4,10 +4,10 @@
 body {
     background-image: url("https://barbarashdwallpapers.com/wp-content/uploads/2015/05/White-wave-pattern-wallpaper-1.jpg");
     background-repeat: repeat-x-y;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* UNDERSTANDING THE BOX-MODEL */
-/* THE BOX-MODEL - ADDS A BORDER TO AN ELEMENT AND SPACING BETWEEN ELEMENTS
 div.box-model {
     height: 100px;
     width: 100px;
@@ -23,8 +23,38 @@ h2.text {
     text-align: center;
     text-decoration: underline;
     text-shadow: 2px 2px 5px greenyellow;
+    text-transform: uppercase;
 }
 
+/*FORMATTING TABLES */
+table, tr {
+    border: 3px solid black;
+    width: 100%;
+    background-color: gold;
+}
+
+td {
+    border: 3px solid black;
+    width: 100%;
+    background-color: goldenrod;
+}
+
+/* FORMATTING LINKS IN <a> TAGS BASED ON DIFFERENT STATES*/
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: gold;
+}
+
+a:active {
+    color: red;
+}
 
 
 /*===================================================================================================================================================

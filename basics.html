@@ -10,13 +10,9 @@
         <link rel="stylesheet" href="style.css" >
     </head>
 
-    <body> <!--THIS SECTION DESCRIBES THE CONTENTS OF THE WEB PAGE-->
+    <body> <!--THIS SECTION DESCRIBES ALL OF THE CONTENT THAT IS DISPLAYED ON THE WEB PAGE-->
 
-        <div id="Body"> 
-            <h2>Body:</h2>
-            <p>A body element contains all the content that can be displayed to the screen. </p>
-            <p>Used by adding "body" between opening and closing tags.</p>
-        </div>
+        <hr>
 
         <div id="Headings">
             <h1>Heading 1</h1>
@@ -27,15 +23,17 @@
             <h6>Heading 6</h6>
         </div><br>
 
+        <hr>
+
         <div id="Divs"> 
-            <h2>Divs:</h2>
-            <p>Division is a container that divides the page or the DOM into sections.</p>
+            <h2>DIVS</h2>
+            <p>Division is a container used to divide the DOM into sections.</p>
         </div><br>
 
         <hr>
 
         <!----BOX MODEL---->
-        <h2>Box-Model</h2>
+        <h2>BOX MODEL</h2>
         <div class = "box-model">
         <p>CONTENT</p>
         </div>
@@ -60,6 +58,8 @@
             <p><span>"Span"</span> contains short pieces of text or other HTML. They are used to separate small pieces of content that are on the same line as other content.</p>
         </div>
 
+        <br><hr>
+
         <!-----LISTS-------------------------------------------------------------------------------------------------------------------------------------->
 
         <!--
@@ -82,7 +82,7 @@
 
         -->
 
-            <h2>Unordered Lists</h2>
+            <h2>UNORDERED LISTS</h2>
                 <ul>
                     <li>Javascript</li>
                     <li>Python</li>
@@ -90,7 +90,7 @@
                     <li>PHP</li>
                 </ul>
 
-            <h2>Ordered Lists</h2>
+            <h2>ORDERED LISTS</h2>
                 <ol>
                     <li>Python</li>
                     <li>Javascript</li>
@@ -98,45 +98,79 @@
                     <li>PHP</li>
                 </ol>
 
+            <hr>
 
-        <!---------------------------------------------------------------------------------------------------------------------------------------------->
-    
-        <img class = "dbz trunks" src= "https://cdn.player.one/sites/player.one/files/styles/lg/public/2016/05/09/future-trunks-dbz-dragon-ball-z.jpg" width = 500 height = 200>
-            <br>
+        <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <h2>IMAGES</h2>
+        <img class = "dbz trunks" src= "https://cdn.player.one/sites/player.one/files/styles/lg/public/2016/05/09/future-trunks-dbz-dragon-ball-z.jpg" width = 400 height = 200>
             <br>
             <br>
             <br>
             
-            <img class = "supersaiyan" src = "https://i.ytimg.com/vi/mDz4XogBAb0/maxresdefault.jpg" width = 500 height = 200>
+        <img class = "supersaiyan" src = "https://animemotivation.com/wp-content/uploads/2018/10/goku-thumbs-up.jpg" width = 400 height = 200>
 
-            <iframe class = "video" width="495" height="250" src="https://www.youtube.com/embed/cssJr-lcAt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <br><br><hr>
+        
+        <!--IMPORTING A VIDEO FROM YOUTUBE-->
+        <h2>IMPORTING A YOUTUBE VIDEO USING THE EMBED HTML CODE</h2>
+        <iframe class = "video" width="560" height="315" src="https://www.youtube.com/embed/NHW7ywUx4pY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><br><hr>
 
         <div id="Videos">
-            <h2>Videos</h2>
+
+            <h2>VIDEOS</h2>
             <p>Similar to the "img" tag, the "video" tag does the same but for video.</p>
-            <p>However, it is not a single tag element and requires opening and closing tags.</p>
-            <p>eg. "< video src = " myVideo.mp4 " width="320" height="240" controls> <br>
-                Video not supported <br>
-            < / video >"</p>
+            
+            <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+
             <p>After the src attribute, the width and height attributes are used to set the size of the video displayed in the browser. The controls attribute instructs the browser to include basic video controls: pause, play and skip</p>
             <p>The text, “Video not supported", between the opening and closing video tags will only be displayed if the browser is unable to load the video.</p>
-            <video scr="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>
-            Video not supported</video>
+        
         </div>
 
+        <br><hr>
+        
+        <!--TABLES-->
+        <h2>TABLES</h2>
+
+        <table>
+
+            <tr>
+                <th>DBZ Non-Saiyans</th>
+            </tr>
+
+            <tr>
+                <td>Krillin</td>
+            </tr>
+
+            <tr>
+                <td>Yamcha</td>
+            </tr>
+
+            <tr>
+                <td>Tien</td>
+            </tr>
+
+            <tr>
+                <td>Piccolo</td>
+            </tr>
+    
+        </table>
 
         <!--FORMS-->
 
-        <form> : Form Component
-        <fieldset> : Collection of fields
-        <legend> : Form legend
-        <label> : Input label
-        <input /> : Form input component
-        <textarea> : Large text input
-        <select> : Drop-down Box
-        <option> : Drop-down options
-        <button> : Standard Button
+        <!--<form> : Form Component-->
+        <!--<fieldset> : Collection of fields-->
+        <!--<legend> : Form legend-->
+        <!--<label> : Input label-->
+        <!--<input /> : Form input component-->
+        <!--<textarea> : Large text input-->
+        <!--<select> : Drop-down Box-->
+        <!--<option> : Drop-down options-->
+        <!--<button> : Standard Button-->
 
+    <br><br><br><br>
 
     </body>
 
