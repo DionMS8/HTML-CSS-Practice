@@ -1,11 +1,12 @@
-# HTML-CSS-Practice
+# HTML/CSS Practice
 
 ![image](https://user-images.githubusercontent.com/55777067/127402911-367481db-9bf8-4e71-8f55-edf044947e29.png)
 
 ## Table of contents
-* [General info](#general-info)
+* [General Info](#general-info)
 * [Technologies](#technologies)
-* [Screenshots](#screenshots)
+* [Mini Projects](#mini-projects)
+* [Topics Covered](#topics-covered)
 * [References](#references)
 
 
@@ -15,6 +16,9 @@ This repo contains the code written during my journey to mastering the fundament
 ## Technologies
 - HTML5
 - CSS3
+
+## Mini Projects
+- Blurry Loading Animation
 
 ## Topics Covered
 
@@ -34,6 +38,7 @@ This repo contains the code written during my journey to mastering the fundament
 - Box-Model Layout ✔
 - Display Properties ✔
 - Floats ✔
+- Formatting Text ✔
 
 
 ## References
