@@ -19,7 +19,7 @@ This repo contains the code written during my journey to mastering the fundament
 ## Mini Projects
 - Blurry Loading Animation
 
-##Topics Covered
+## Topics Covered
 
 ### HTML
 - Semantic HTML ✔
