@@ -22,11 +22,9 @@ HSL, RGBA, HSLA values. */
 
 /*===================================================================================================================================================
 
+/* THE BOX-MODEL - ADDS A BORDER TO AN ELEMENT AND SPACING BETWEEN ELEMENTS
 
-NOTE: A MARGIN IS THE SPACING AROUND AN ELEMENT'S BORDER, WHILE 
-
-
-/* MARGINS 
+/* MARGINS - THE SPACING AROUND AN ELEMENT'S BORDER
 
     All margin properties can have the following values:
 
@@ -44,10 +42,7 @@ NOTE: A MARGIN IS THE SPACING AROUND AN ELEMENT'S BORDER, WHILE
 
 /*===========================================================================================================================================*/
 
-
-/* PADDING
-
-- PADDING IS THE SPACE BETWEEN AN ELEMENT'S BORDER AND IT'S CONTENT
+/* PADDING - THE SPACE BETWEEN AN ELEMENT'S BORDER AND IT'S CONTENT
 
     /* padding-top */
     /* padding-right */
