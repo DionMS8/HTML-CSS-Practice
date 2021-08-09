@@ -38,10 +38,13 @@ This repo contains the code written during my journey to mastering the fundament
 - Backgrounds ✔
 - Borders ✔
 - Box-Model Layout ✔
-- Display Properties ✔
+- Display ✔
 - Floats ✔
 - Formatting Text ✔
 - Positioning ✔
+- Flexbox
+- CSS Grid
+- Media Queries
 
 
 ## References
