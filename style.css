@@ -57,6 +57,8 @@ a:active {
 }
 
 /* CSS POSITIONING */
+
+/* STATIC - THIS IS THE DEFAULT POSITION OF AN ELEMENT */
 div.static {
     position: static;
     width: 200px;
@@ -66,6 +68,7 @@ div.static {
     text-align: center;
 }
 
+/* THE ELEMENT CAN BE POSITIONED USING TOP, BOTTOM, RIGHT AND LEFT */
 div.relative {
     position: relative;
     top: 40px;
@@ -77,6 +80,7 @@ div.relative {
     text-align: center;
 }
 
+/* */
 div.fixed {
     position: fixed;
     right: 0px;
@@ -86,8 +90,10 @@ div.fixed {
     background-color: fuchsia;
     border: 3px solid black;
     text-align: center;
-    z-index: -1;
+    z-index: -1; /* SPECIFIES THE STACK ORDER OF THE ELEMENT */
 }
+
+/* THE Z-INDEX PROPERTY SPECIFIES THE STACK ORDER OF THE ELEMENT */
 
 div.absolute {
     position: absolute;
@@ -115,6 +121,14 @@ div.dropdown {
     position: relative;
     display: inline-block;
 }
+
+.dropdown-content {
+    color:yellow;
+    position: absolute;
+    background-color: purple;
+    min-width: 140px;
+    box-shadow: 0px 4px 8px 0px grey;
+  }
 
 /*===================================================================================================================================================
 
@@ -147,18 +161,21 @@ HSL, RGBA, HSLA values. */
 
 /* PADDING - THE SPACE BETWEEN AN ELEMENT'S BORDER AND IT'S CONTENT
 
-    /* padding-top */
-    /* padding-right */
-    /* padding-bottom */
-    /* padding-left */
+    /* padding-top 
+    /* padding-right 
+    /* padding-bottom 
+    /* padding-left 
 
 /*===========================================================================================================================================*/
 
 /* DISPLAY PROPERTIES FOR HTML ELEMENTS
 
-    /* display: block; - ALLOWS AN ELEMENT TO ACCEPT BOX-MODEL PROPERTIES 
-    /* display: inline; - PLACES AN ELEMENT IN LINE WITH OTHER ELEMENTS
-    /* display: inline-block; 
+    /* display: block; - THE ELEMENT CAN ACCEPT BOX-MODEL PROPERTIES 
+    /* display: inline; - PLACES AN ELEMENT IN LINE WITH OTHER ELEMENTS (HORIZONTALLY)
+    /* display: inline-block; - BOTH BLOCK AND IN-LINE PROPERTIES
+    /* display: none; - THIS WILL COMPLETELY HIDE AN ELEMENT
+    /* display: flex;
+    /* display: static;
 
  
 /*===========================================================================================================================================*/
@@ -192,8 +209,6 @@ HSL, RGBA, HSLA values. */
 
 /* OUTLINE - THIS IS A LINE THAT IS DRAWN AROUND AN ELEMENT, OUTSIDE OF THE BORDER
 /* - THE OUTLINE EXISTS BETWEEN THE BORDER AND THE MARGIN
-
-
 
 
 
