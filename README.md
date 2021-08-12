@@ -30,6 +30,9 @@ This repo contains the code written during my journey to mastering the fundament
 - Images/Videos ✔
 - Links ✔
 - Tables ✔
+- Forms ✔
+- Buttons ✔
+- Dropdowns ✔
 
 ### CSS
 - Selectors ✔
