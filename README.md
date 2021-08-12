@@ -33,6 +33,7 @@ This repo contains the code written during my journey to mastering the fundament
 
 ### CSS
 - Selectors ✔
+- Combinators ✔
 - Margins ✔
 - Padding ✔
 - Backgrounds ✔
@@ -45,6 +46,7 @@ This repo contains the code written during my journey to mastering the fundament
 - Navigation Bar
 - Forms
 - Dropdowns ✔
+- Pseuodoclasses ✔
 - Buttons
 - Image Gallery
 - Flexbox
