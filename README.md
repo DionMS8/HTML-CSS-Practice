@@ -42,6 +42,8 @@ This repo contains the code written during my journey to mastering the fundament
 - Floats ✔
 - Formatting Text ✔
 - Positioning ✔
+- Navigation Bar
+- Image Gallery
 - Flexbox
 - CSS Grid
 - Media Queries
