@@ -17,13 +17,16 @@ div.box-model {
     background-color: greenyellow; 
 }
 
-/* FORMATTING TEXT */
+/* FORMATTING TEXT AND FONT */
 h2.text {
     color: green;
     text-align: center;
     text-decoration: underline;
     text-shadow: 2px 2px 5px greenyellow;
     text-transform: uppercase;
+    font-size: medium;
+    font-weight: 400;
+    line-height: 1.75;
 }
 
 /*FORMATTING TABLES */
@@ -219,9 +222,65 @@ HSL, RGBA, HSLA values. */
 /* FLOATS ARE BOXES THAT CAN BE PULLED TO THE LEFT AND RIGHT */
 /* THE CONTENT FOLLOWING IT WILL FLOW ALONG IT'S SIDE */
 
+/* THE FLOAT PROPERTY SPECIFIES HOW AN ELEMENT SHOULD FLOAT */
+
+
+/* The CSS clear property specifies what elements can float beside the cleared element and on which side. */
+
 
 /*===========================================================================================================================================*/
 
+/* CSS MEDIA QUERIES - USED FOR MOBILE RESPONSIVENESS */
+
+/* A MEDIA QUERY MUST ALWAYS BE WRITTEN AFTER THE STYLING IT IS TRYING */
+/* TO OVERWRITE */
+
+/* MOBILE FIRST [INCREASING SCREEN WIDTH] */
+@media (min-width: 600px) {
+    
+}
+
+/* DESKTOP FIRST [DECREASING SCREEN WIDTH] */
+@media (max-width: 600px) {
+    
+}
+
+/* CREATING A MEDIA QUERY */
+
+@media (min-width: 600px) {
+    p {
+        font-size: 1.25 rem;
+    }
+}
+
+/* WHEN THE SCREEN WIDTH IS INCREASED BEYOND 600PX, THE FONT-SIZE WILL */
+/* WILL BECOME 1.25 REM */
+
+@media (min-width: 800px) {
+    p {
+        font-size: 1.5 rem;
+        line-height: 1.5;
+    }
+}
+
+/* WHEN THE SCREEN WIDTH IS INCREASED BEYOND 800PX, THE FONT-SIZE WILL */
+/* WILL BECOME 1.5 REM AND LINE HEIGHT WILL BECOME 1.5 */
+
+/* OTHER RULES THAN CAN BE MODIFIED WITHIN BRACKETS IN MEDIA QUERIES */
+/* ORIENTATION: PORTRAIT [MOBILE] */
+/* ORIENTATION: LANDSCAPE [DESKTOP] */
+
+@media all and () {
+}
+
+@media screen and () {
+}
+
+@media speech and () {
+}
+
+@media print and () {
+}
 
 /*===========================================================================================================================================*/
 
