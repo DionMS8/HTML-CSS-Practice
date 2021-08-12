@@ -59,6 +59,16 @@ a:active {
     color: red;
 }
 
+div.youtubelink {
+    background: skyblue;
+    width: 160px;
+ }
+
+ div.youtubelink :hover {
+     background-color: blue;
+ }
+
+
 /* CSS POSITIONING */
 
 /* STATIC - THIS IS THE DEFAULT POSITION OF AN ELEMENT */
@@ -120,6 +130,7 @@ div.sticky {
     text-align: center;
 }
 
+/* STYLING A DROPDOWN BOX */
 div.dropdown {
     position: relative;
     display: inline-block;
@@ -132,25 +143,39 @@ div.dropdown {
     min-width: 140px;
     box-shadow: 0px 4px 8px 0px grey;
   }
+  
+/* STYLING A FORM */
+div.form {
+    background: rgb(210, 247, 2);
+    border: 8px solid black;
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-left: 200px;
+}
 
-  div.youtubelink {
-     background: skyblue;
-     width: 160px;
-  }
-
-  div.youtubelink :hover {
-      background-color: blue;
-  }
-
+/* STYLING A PSEUODO ELEMENT */
+p::first-line {
+    color: green;
+}
 
 /*===================================================================================================================================================
-
-/* COLOURS */
 
 /* COLOURS CAN BE SPECIFIED USING PREDEFINED COLOUR NAMES or RGB, HEX, 
 HSL, RGBA, HSLA values. */
 
 
+/*===================================================================================================================================================
+
+/* COMBINATORS - DEFINE THE RELATIONSHIP BETWEEN SIMPLE SELECTORS */
+
+/* THERE ARE 4 DIFFERENT CSS COMBINATORS: */
+
+/* 1. descendant selector (space)   */
+/* 2. child selector (>)            */
+/* 3. adjacent sibling selector (+) */
+/* 4. general sibling selector (~)  */
 
 /*===================================================================================================================================================
 
@@ -161,7 +186,6 @@ HSL, RGBA, HSLA values. */
     length - specifies a margin in px, pt, cm
     % - specifies a margin in % of the width of the containing element
     inherit - specifies that the margin should be inherited from the parent element */
-
 
     /* margin-top: ;    */
     /* margin-right: ;  */
@@ -318,5 +342,3 @@ HSL, RGBA, HSLA values. */
 
 /*===========================================================================================================================================*/
 
-
-/*===========================================================================================================================================*/
