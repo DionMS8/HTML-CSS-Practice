@@ -43,9 +43,15 @@ This repo contains the code written during my journey to mastering the fundament
 - Formatting Text ✔
 - Positioning ✔
 - Navigation Bar
+- Forms
+- Dropdowns
+- Buttons
 - Image Gallery
 - Flexbox
-- CSS Grid
+- Grid
+- Gradients
+- Animations
+- Transitions
 - Media Queries
 
 
