@@ -267,10 +267,15 @@ HSL, RGBA, HSLA values. */
 /* WILL BECOME 1.5 REM AND LINE HEIGHT WILL BECOME 1.5 */
 
 /* OTHER RULES THAN CAN BE MODIFIED WITHIN BRACKETS IN MEDIA QUERIES */
-/* ORIENTATION: PORTRAIT [MOBILE] */
-/* ORIENTATION: LANDSCAPE [DESKTOP] */
+/* ORIENTATION: PORTRAIT [HEIGHT > WIDTH] */
+/* ORIENTATION: LANDSCAPE [WIDTH > HEIGHT] */
 
-@media all and () {
+/* "@media all and ()" is the same as "@media ()" */
+
+/* THE "and" KEYWORD IS USED TO CONCATENATE */
+/* A COMMA CAN BE PLACED BETWEEN RULES TO INDICATE AN "OR" CONDITION */
+
+@media (orientation: landscape), (max-width: 500px) {
 }
 
 @media screen and () {
@@ -283,6 +288,12 @@ HSL, RGBA, HSLA values. */
 }
 
 /*===========================================================================================================================================*/
+
+/* CSS GRID */
+
+
+
+
 
 
 /*===========================================================================================================================================*/
