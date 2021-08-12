@@ -44,7 +44,7 @@ This repo contains the code written during my journey to mastering the fundament
 - Positioning ✔
 - Navigation Bar
 - Forms
-- Dropdowns
+- Dropdowns ✔
 - Buttons
 - Image Gallery
 - Flexbox
@@ -52,7 +52,7 @@ This repo contains the code written during my journey to mastering the fundament
 - Gradients
 - Animations
 - Transitions
-- Media Queries
+- Media Queries ✔
 
 
 ## References
