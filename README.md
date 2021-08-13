@@ -37,6 +37,7 @@ This repo contains the code written during my journey to mastering the fundament
 ### CSS
 - Selectors ✔
 - Combinators ✔
+- Specificity ✔
 - Margins ✔
 - Padding ✔
 - Backgrounds ✔
@@ -50,15 +51,22 @@ This repo contains the code written during my journey to mastering the fundament
 - Forms
 - Dropdowns ✔
 - Pseuodoclasses ✔
-- Buttons
+- Buttons ✔
 - Image Gallery
 - Flexbox
 - Grid
-- Gradients
+- Gradients ✔
 - Animations
 - Transitions
 - Media Queries ✔
+- Screen Breakpoints
 
+### CSS Preprocessors
+- SASS
+
+### CSS Frameworks
+- Bootstrap
+- Tailwind CSS
 
 ## References
 
