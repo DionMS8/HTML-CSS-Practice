@@ -48,7 +48,7 @@ This repo contains the code written during my journey to mastering the fundament
 - Formatting Text ✔
 - Positioning ✔
 - Navigation Bar
-- Forms
+- Forms ✔
 - Dropdowns ✔
 - Pseuodoclasses ✔
 - Buttons ✔
@@ -57,7 +57,7 @@ This repo contains the code written during my journey to mastering the fundament
 - Grid
 - Gradients ✔
 - Animations
-- Transitions
+- Transitions ✔
 - Media Queries ✔
 - Screen Breakpoints
 
@@ -72,3 +72,4 @@ This repo contains the code written during my journey to mastering the fundament
 
 - Front End Web Development Ultimate Course 2021 on Udemy 
 - W3Schools
+- Codepen.io
