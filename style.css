@@ -1,5 +1,8 @@
 /* CSS USES SELECTORS AND DECLARATION BLOCKS */
 
+/* NOTE: COLOURS CAN BE SPECIFIED USING PREDEFINED COLOUR NAMES or RGB, HEX, 
+HSL, RGBA, HSLA values. */
+
 /* STYLING ALL ELEMENTS WITHIN THE HTML BODY */
 body {
     background-image: url("https://barbarashdwallpapers.com/wp-content/uploads/2015/05/White-wave-pattern-wallpaper-1.jpg");
@@ -28,6 +31,24 @@ h2.text {
     font-weight: 400;
     line-height: 1.75;
 }
+
+/* OPACITY WITH HOVER EFFECT */
+.trunks {
+    opacity: 0.5;
+}
+
+.trunks:hover {
+    filter:invert();
+}
+
+.goku {
+    opacity: 0.5;
+}
+
+.goku:hover {
+    opacity: 1;
+}
+
 
 /*FORMATTING TABLES */
 table, tr {
@@ -130,40 +151,76 @@ div.sticky {
     text-align: center;
 }
 
-/* STYLING A DROPDOWN BOX */
-div.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    color:yellow;
-    position: absolute;
-    background-color: purple;
-    min-width: 140px;
-    box-shadow: 0px 4px 8px 0px grey;
-  }
   
 /* STYLING A FORM */
 div.form {
     background: rgb(210, 247, 2);
     border: 8px solid black;
+    border-radius: 20px;
     width: 200px;
-    height: 200px;
-    padding-top: 50px;
-    padding-left: 50px;
+    height: 300px;
+    padding: 50px;
     margin-left: 200px;
 }
+
+input[type=text] {
+    width: 180px;
+    display:inline-block;
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+
+input[type=text]:hover {
+    box-shadow: 2px 2px 5px grey;
+}
+
+input[type=email] {
+    width: 180px;
+    display:inline-block;
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+
+input[type=email]:hover {
+    box-shadow: 2px 2px 5px grey;
+}
+
+input[type=submit] {
+    width: 100px;
+    display:inline-block;
+    box-sizing: border-box;
+    border: 3px solid black;
+    background: blue;
+    color: yellow;
+}
+
+/* STYLING A DROPDOWN BOX */
+div.dropdown {
+    min-width: 180px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    min-width: 180px;
+    color:black;
+    border: 3px solid black;
+    position: absolute;
+    background-color: white;
+  }
 
 /* STYLING A PSEUODO ELEMENT */
 p::first-line {
     color: green;
 }
 
-/*===================================================================================================================================================
+/* IMAGE SPRITES - THIS IS A COLLECTION OF IMAGES PUT IN A SINGLE IMAGE */
+/* TRADITIONAL ALTERNATIVE TO SVG IMAGES */
 
-/* COLOURS CAN BE SPECIFIED USING PREDEFINED COLOUR NAMES or RGB, HEX, 
-HSL, RGBA, HSLA values. */
+/* CALLING ON ANCHOR TAG ELEMENTS BASED ON TARGET ATTRIBUTES */
+a[target] {
+    background: yellow;
+}
 
 
 /*===================================================================================================================================================
@@ -227,7 +284,9 @@ HSL, RGBA, HSLA values. */
     /* display: flex;
     /* display: static;
 
- 
+/*===========================================================================================================================================*/
+
+
 /*===========================================================================================================================================*/
 
 /* BORDERS */
@@ -339,6 +398,38 @@ HSL, RGBA, HSLA values. */
 /* CSS GRID */
 
 
+/*===========================================================================================================================================*/
+
+/* SPECIFICITY */
+
+/* EVERY SELECTOR HAS A POSITION IN THE HIERARCHY OF SPECIFICITY */
 
 /*===========================================================================================================================================*/
+
+/* !IMPORTANT RULE */
+
+/* IF THE !IMPORTANT RULE IS APPLIED TO A SPECIFIC PROPERTY OF AN */
+/* ELEMENT, ALL PREVIOUS STYLING WILL BE OVERWITTEN FOR THAT PROPERTY OF */
+/* OF THAT ELEMENT */
+
+p.important {
+    background: grey;
+    background: lime!important;
+    color: blue;
+    color: red!important;
+}
+
+/* THE ABOVE PARAGRAPH WILL HAVE RED TEXT ON A LIME BACKGROUND */ 
+
+
+/*===========================================================================================================================================*/
+
+/* ADDITIONAL NOTES: */
+
+/* - COUNTERS ARE VARIABLES CONTROLLED AND INCREMENTED BY CSS RULES */
+/* - Z-PROPERTY SPECIFIES THE STACK ORDER OF AN ELEMENT */
+
+
+/*===========================================================================================================================================*/
+
 

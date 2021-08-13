@@ -12,6 +12,8 @@
 
     <body> <!--THIS SECTION DESCRIBES ALL OF THE CONTENT THAT IS DISPLAYED ON THE WEB PAGE-->
 
+        <header></header>
+
         <hr>
 
         <div id="Headings">
@@ -103,12 +105,12 @@
         <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
         <h2>IMAGES</h2>
-        <img class = "dbz trunks" src= "https://cdn.player.one/sites/player.one/files/styles/lg/public/2016/05/09/future-trunks-dbz-dragon-ball-z.jpg" width = 400 height = 200>
+        <img class = "trunks" src= "https://cdn.player.one/sites/player.one/files/styles/lg/public/2016/05/09/future-trunks-dbz-dragon-ball-z.jpg" width = 400 height = 200>
             <br>
             <br>
             <br>
             
-        <img class = "supersaiyan" src = "https://animemotivation.com/wp-content/uploads/2018/10/goku-thumbs-up.jpg" width = 400 height = 200>
+        <img class = "goku" src = "https://animemotivation.com/wp-content/uploads/2018/10/goku-thumbs-up.jpg" width = 400 height = 200>
 
         <br><br><hr>
         
@@ -171,8 +173,11 @@
         <!--<option> : Drop-down options-->
         <!--<button> : Standard Button-->
 
+        <!--------------------------------------------------------------------- FORMS -------------------------------------------------------------------------------------->
+        
         <!--CREATING A FORM-->
-        <h2>FORMS</h2>
+
+        <h2>CREATING A FORM WITH DROPDOWN BOX</h2>
 
         <div class = "form">
             <form action="/" method ="GET"/>
@@ -189,32 +194,43 @@
                 </label>
             </div><br>    
             
-            <input type = "submit">
+            <div>
+                <label> Password:
+                    <input type ="text"  placeholder = "Enter your password" name = "password" />
+                </label>
+            </div><br>
+
+            <label> Song Genre:
+                <div class = "dropdown">
+                    <select class = "dropdown-content">
+                        <option href="#" value="random">Random</option>
+                        <option href="#" value="goku">Soca</option>
+                        <option href="#" value="vegeta">Reggae</option>
+                        <option href="#" value="trunks">Rap</option>
+                        <option href="#" value="gohan">Bollywood</option>
+                    </select>
+                </div><br>
+            </label><br><br>
+
+            <input type = "submit"><br> <br>
             <input type = "submit" value = "Click Here">
         </div>
 
         <br><br><hr>
 
-        <!--DROPDOWN BOX IN HTML-->
-        <h2>DROPDOWN BOX</h2>
-        <div class = "dropdown">
-            <select class = "dropdown-content">
-                <option href="#" value="random">Random</option>
-                <option href="#" value="goku">Soca</option>
-                <option href="#" value="vegeta">Reggae</option>
-                <option href="#" value="trunks">Rap</option>
-                <option href="#" value="gohan">Bollywood</option>
-            </select>
-        </div>
-        
-        <br><br><br><hr>
 
         <!--PLACING A HOVERABLE LINK WITH AN  <a> TAG-->
         <h2>PLACING A HOVERABLE LINK WITH AN ANCHOR TAG</h2>
         <div class = "youtubelink">
             <a href ="https://www.youtube.com/">Click to go to YouTube</a>
-            <br><br>
-            <a href="https://www.instagram.com/dion_ms8/" target = "_blank">Dion's IG Profile</a>
+        </div>
+        
+        <br><br><hr>
+
+        <!--STYLING A HOVERABLE <a> TAG BASED ON IT'S TARGET ATTRIBUTE-->
+        <h2>STYLING A HOVERABLE ANCHOR TAG BASED ON IT'S TARGET ATTRIBUTE</h2>
+        <div class = "iglink">
+             <a href="https://www.instagram.com/dion_ms8/" target = "_blank">Dion's IG Profile</a>
         </div>
         
         <br><br><hr>
@@ -227,7 +243,7 @@
 
         <br><br><hr>
 
-
+        <h2>STYLING A PSEUDO ELEMENT</h2>
         <p> :: first-line pseudo-element This is an example of how to use Pseudo. Lorem ipsum.This is an example of how to use Pseudo. Lorem ipsum.This is an example of how to use Pseudo. 
         Lorem ipsum.This is an example of how to use Pseudo. Lorem ipsum.This is an example of how to use Pseudo. Lorem ipsum.This is an example of how to use Pseudo. 
         Lorem ipsum.This is an example of how to use Pseudo. Lorem ipsum.This is an example of how to use Pseudo. Lorem ipsum.This is an example of how to use Pseudo. 
@@ -252,6 +268,10 @@
         <br><br><br><br>
 
     </body>
+
+    <footer class = "footer">
+    
+    </footer>
 
 </html>
 
