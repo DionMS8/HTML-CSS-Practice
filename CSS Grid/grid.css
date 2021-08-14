@@ -1,19 +1,32 @@
+/*=============================[CSS GRID]=====================================*/
+
+/* IMPORTING A GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
+/* STYLING THE BODY */
 body {
-/*   margin: 0; */
+  background: rgb(12, 135, 235)
+}
+
+/*STYLING ALL <h2> ELEMENTS */
+h2 {
+  color: white;
+  font-family:'Segoe UI';
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .container {
   display: grid;
   height: 100vh;
+  justify-content: center;
+  align-content: center;
   margin: 0;
   grid-template-columns: 200px 300px 200px;
   grid-gap: 10px;
   font-family: 'Poppins', sans-serif;
-/*   grid-auto-rows: minmax(200px, auto); */
-  justify-content: center;
-  align-content: center;
+  
 }
 
 .container > div {
@@ -28,30 +41,40 @@ body {
   background: #ffd880;
 }
 
-.one {
+div.one {
   grid-column: 1 / 4;
+  border: 4px solid black;
 }
 
-.three {
+div.two {
+  border: 4px solid black;
+}
+
+div.three {
   grid-column: 2 / 3;
   grid-row: 2 / 4;
+  border: 4px solid black;
 }
 
-.four {
+div.four {
 /*   grid-column: 1 / 3; */
+border: 4px solid black;
 }
 
-.five {
+div.five {
   grid-row: 3 / 5;
+  border: 4px solid black;
 }
 
-.six {
+div.six {
+  border: 4px solid black;
 }
 
-.seven {
+div.seven {
   grid-column: 2 / 4;
+  border: 4px solid black;
 }
 
-.eight {
+div.eight {
   grid-column: 1 / 3;
 }

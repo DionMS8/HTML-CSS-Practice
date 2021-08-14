@@ -344,7 +344,7 @@ div.animation {
 
 .pagination a {
     color: gray;
-    float: left;
+    float: left;   /* Elements next to a floating element will flow around it */
     padding: 6px 16px;
     text-decoration: none;
     font-family:Cambria;
@@ -356,7 +356,18 @@ div.animation {
     color: blue;
 }
 
-/* FOOTER */
+/*============================[FLOATS]====================================*/
+
+/* - THE FLOAT PROPERTY SPECIFIES WHETHER AN ELEMENT SHOULD FLOAT LEFT/RIGHT */
+/* - THE CONTENT NEXT TO A FLOATING ELEMENT WILL FLOW AROUND IT */
+/* - THIS IS UDEFUL FOR MAKING TEXT WRAP AROUND AN IMAGE
+
+/* The CSS clear property specifies what elements can float beside the cleared element and on which side. */
+
+
+
+/*============================[FOOTER]========================================*/
+
 .footer {
     width: 100%;
     height: 200px;
@@ -581,19 +592,10 @@ div.animation {
 /* - THE OUTLINE EXISTS BETWEEN THE BORDER AND THE MARGIN
 
 
-/*============================[FLOATS]====================================*/
-
-/* FLOATS ARE BOXES THAT CAN BE PULLED TO THE LEFT AND RIGHT */
-/* THE CONTENT FOLLOWING IT WILL FLOW ALONG IT'S SIDE */
-
-/* THE FLOAT PROPERTY SPECIFIES HOW AN ELEMENT SHOULD FLOAT */
-
-/* The CSS clear property specifies what elements can float beside the cleared element and on which side. */
-
 
 /*===========================================================================================================================================*/
 
-/* CSS MEDIA QUERIES - USED FOR MOBILE RESPONSIVENESS */
+/* MEDIA QUERIES - USED FOR MOBILE RESPONSIVENESS */
 
 /* A MEDIA QUERY MUST ALWAYS BE WRITTEN AFTER THE STYLING IT IS TRYING */
 /* TO OVERWRITE */
@@ -616,8 +618,7 @@ div.animation {
     }
 }
 
-/* WHEN THE SCREEN WIDTH IS INCREASED BEYOND 600PX, THE FONT-SIZE WILL */
-/* WILL BECOME 1.25 REM */
+/* WHEN THE SCREEN WIDTH IS > 600PX, THE FONT-SIZE WILL BE 1.25 REM */
 
 @media (min-width: 800px) {
     p {
