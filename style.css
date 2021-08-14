@@ -267,6 +267,72 @@ div#grad {
     background-color: black;
 }
 
+div#transition {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    transition: length, width 2s;
+    margin-left: 100px;
+}
+
+div#transition:hover {
+    width: 300px;
+}
+
+div#transition2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(131, 133, 46);
+    transition: width 2s;
+    margin-left: 100px;
+}
+
+div#transition2:hover {
+    width: 300px;
+}
+
+div.animation {
+    width: 400px;
+    height: 200px;
+    background: dodgerblue;
+    animation-name: color-fade;
+    animation-duration: 4s;
+}
+
+@keyframes color-fade {
+    from {background: rgb(185, 23, 185);}
+    to {background:rgb(0, 255, 0);}
+} 
+
+.tooltip {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    border: 2px dotted black;
+    padding: 20px;
+}
+
+/* TOOLTIPS */
+.tooltip-text {
+    position: absolute;
+    width: 120px;
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    z-index: 1;
+    border-radius: 6px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+/* FOOTER */
 .footer {
     width: 100%;
     height: 200px;
@@ -434,30 +500,7 @@ div#grad {
   }
   
 
-div#transition {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: green;
-    transition: length, width 2s;
-    margin-left: 100px;
-}
 
-div#transition:hover {
-    width: 300px;
-}
-
-div#transition2 {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(131, 133, 46);
-    transition: width 2s;
-    margin-left: 100px;
-}
-
-div#transition2:hover {
-    width: 300px;
-}
 
 /*===========================================================================================================================================*/
 
@@ -623,6 +666,21 @@ p.important {
 
 /* - COUNTERS ARE VARIABLES CONTROLLED AND INCREMENTED BY CSS RULES */
 /* - Z-PROPERTY SPECIFIES THE STACK ORDER OF AN ELEMENT */
+
+
+
+/* CSS UNITS */
+
+/*
+
+•	px – Pixels
+•	% - Percentages
+•	em - A unit of measurement, where 1 em = current font size.
+•	rem - Root em. Same measurement as em, but makes life much easier without the inheritance problem
+•	auto - highly useful unit
+
+*/
+
 
 
 /*===========================================================================================================================================*/
