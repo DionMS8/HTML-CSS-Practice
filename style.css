@@ -38,7 +38,8 @@ h2.text {
     line-height: 1.75;
 }
 
-/* OPACITY WITH HOVER EFFECT */
+/*=====================[OPACITY WITH HOVER EFFECT]========================*/
+
 .trunks {
     opacity: 0.5;
     border: 3px solid black;
@@ -57,8 +58,8 @@ h2.text {
     opacity: 1;
 }
 
+/*========================[FORMATTING TABLES]==============================*/
 
-/*FORMATTING TABLES */
 table, tr {
     border: 3px solid black;
     width: 100%; /* THIS MAKES THE TABLE RESPONSIVE SO THAT THE TABLE WIDTH WILL ADJUST ACCPORDING TO THE WIDTH OF THE WINDOW */
@@ -71,7 +72,8 @@ td {
     background-color: goldenrod;
 }
 
-/* FORMATTING LINKS IN <a> TAGS BASED ON DIFFERENT STATES*/
+/*========[FORMATTING LINKS IN <a> TAGS BASED ON DIFFERENT STATES]=========*/
+
 a:link {
     color: blue;
 }
@@ -232,7 +234,7 @@ a[target] {
 }
 
 
-/* GRADIENTS */
+/*============================GRADIENTS==================================== */
 
 div.grad-tb {
     height: 100px;
@@ -305,31 +307,52 @@ div.animation {
     to {background:rgb(0, 255, 0);}
 } 
 
-.tooltip {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 200px;
-    position: relative;
-    text-align: center;
-    display: inline-block;
-    border: 2px dotted black;
-    padding: 20px;
-}
 
 /* TOOLTIPS */
+.tooltip {
+    font-family: 'Segoe UI';
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    border: 2px dotted black;
+}
+
 .tooltip-text {
     position: absolute;
+    visibility: hidden;
+    z-index: 1;
+    text-align: center;
+    padding: 5px 0;
     width: 120px;
     background-color: black;
     color: white;
-    visibility: hidden;
-    z-index: 1;
     border-radius: 6px;
-    text-align: center;
-    padding: 5px 0;
+
 }
 
 .tooltip:hover .tooltip-text {
     visibility: visible;
+}
+
+/*==========================[PAGINATION]===================================*/
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family:Cambria;
+    font-size: 50px;
+}
+
+.pagination a:hover {
+    color: blue;
 }
 
 /* FOOTER */
@@ -399,11 +422,11 @@ div.animation {
     font-weight: bold;
     }
 
-/*===========================================================================================================================================*/
+/*=========================== CSS BUTTONS =======================================*/
 
-/* BUTTONS */
-/* - https://freefrontend.com/css-buttons/ */
+/* USEFUL RESOURCE: https://freefrontend.com/css-buttons/ */
 
+/* SOCIAL MEDIA ICONS */
 .wrapper {
     display: inline-flex;
   }
@@ -525,9 +548,8 @@ div.animation {
 /*===========================================================================================================================================*/
 
 
-/*===========================================================================================================================================*/
 
-/* BORDERS */
+/*============================[BORDERS]==================================== */
 
 /*  The CSS border properties allow you to specify the style, width and color of an elements border. */
 
@@ -558,16 +580,12 @@ div.animation {
 /* - THE OUTLINE EXISTS BETWEEN THE BORDER AND THE MARGIN
 
 
-
-/*===========================================================================================================================================*/
-
-/* FLOATS */
+/*============================[FLOATS]====================================*/
 
 /* FLOATS ARE BOXES THAT CAN BE PULLED TO THE LEFT AND RIGHT */
 /* THE CONTENT FOLLOWING IT WILL FLOW ALONG IT'S SIDE */
 
 /* THE FLOAT PROPERTY SPECIFIES HOW AN ELEMENT SHOULD FLOAT */
-
 
 /* The CSS clear property specifies what elements can float beside the cleared element and on which side. */
 
@@ -669,19 +687,15 @@ p.important {
 
 
 
-/* CSS UNITS */
+/*===========================[ CSS UNITS ]================================== */
 
-/*
-
-•	px – Pixels
-•	% - Percentages
-•	em - A unit of measurement, where 1 em = current font size.
-•	rem - Root em. Same measurement as em, but makes life much easier without the inheritance problem
-•	auto - highly useful unit
+/* •	px – Pixels
+/* •	% - Percentages
+/* •	em - A unit of measurement, where 1 em = current font size.
+/* •	rem - Root em. Same measurement as em, but makes life much easier without the inheritance problem
+/* •	auto - highly useful unit
 
 */
-
-
 
 /*===========================================================================================================================================*/
 
