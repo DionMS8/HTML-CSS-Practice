@@ -54,9 +54,9 @@ This repo contains the code written during my journey to mastering the fundament
 - Buttons ✔
 - Image Gallery
 - Flexbox
-- Grid
+- Grid ✔
 - Gradients ✔
-- Animations
+- Animations ✔
 - Transitions ✔
 - Media Queries ✔
 - Screen Breakpoints
