@@ -4,7 +4,6 @@
 
 ## Table of contents
 * [General Info](#general-info)
-* [Technologies](#technologies)
 * [Mini Projects](#mini-projects)
 * [Topics Covered](#topics-covered)
 * [References](#references)
@@ -13,9 +12,6 @@
 ## General Information
 This repo contains the code written during my journey to mastering the fundamentals of HTML and CSS for Front-End Web Development. 
 
-## Technologies
-- HTML5
-- CSS3
 
 ## Mini Projects
 - Blurry Loading Animation
@@ -74,3 +70,4 @@ This repo contains the code written during my journey to mastering the fundament
 - Front End Web Development Ultimate Course 2021 on Udemy 
 - W3Schools
 - Codepen.io
+- Web Dev YouTube Channels
