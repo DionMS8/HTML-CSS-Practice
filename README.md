@@ -4,17 +4,14 @@
 
 ## Table of contents
 * [General Info](#general-info)
-* [Mini Projects](#mini-projects)
 * [Topics Covered](#topics-covered)
+* [Mini Projects](#mini-projects)
 * [References](#references)
 
 
 ## General Information
 This repo contains the code written during my journey to mastering the fundamentals of HTML and CSS for Front-End Web Development. 
 
-
-## Mini Projects
-- Blurry Loading Animation
 
 ## Topics Covered
 
@@ -64,6 +61,10 @@ This repo contains the code written during my journey to mastering the fundament
 ### CSS Frameworks
 - Bootstrap
 - Tailwind CSS
+
+
+## Mini Projects
+- Blurry Loading Animation
 
 ## References
 
