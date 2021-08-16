@@ -6,7 +6,7 @@ body {
 
 .wrapper {
     width: 1000px;
-    height: 500px;
+    height: 530px;
     background-color: yellow;
     margin: auto;
     border: 5px solid black;
@@ -37,6 +37,16 @@ h1 {
 
 h2 {
     color: yellow;
+    text-align: center;
+    outline: black;
+    /* USING THE CSS TEXT STROKE FEATURE TO ADD AN OUTLINE */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#title {
+    color: blue;
+    font-size: 35px;
     text-align: center;
     outline: black;
     /* USING THE CSS TEXT STROKE FEATURE TO ADD AN OUTLINE */
