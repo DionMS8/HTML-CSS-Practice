@@ -1,31 +1,13 @@
+/* STYLING THE BODY OF THE OVERALL WEB PAGE */
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: linear-gradient(to right, blue, yellow);
     max-height: 1000px;
 }
 
-.wrapper {
-    width: 1000px;
-    height: 530px;
-    background-color: yellow;
-    margin: auto;
-    border: 5px solid black;
-}
 
-.toy-story {
-    width: 250px;
-    height: 200px;
-    float: left;
-    margin: 20px 20px 5px 20px;
-    border: 5px solid black;
-    border-radius: 6px;
-}
-
-.wrapper p {
-    margin: 5px;
-    padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+/* STYLING THE HEADERS */
 
 h1 {
     color: yellow;
@@ -44,7 +26,39 @@ h2 {
     -webkit-text-stroke-color: black;
 }
 
-#title {
+
+/* STYLING THE BODY OF THE WRAPPER DIV */
+
+.wrapper {
+    width: 1000px;
+    height: 530px;
+    background-color: yellow;
+    margin: auto;
+    border: 5px solid black;
+}
+
+
+/* STYLING THE IMAGE */
+
+.toy-story {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 20px 20px 5px 20px;
+    border: 5px solid black;
+    border-radius: 6px;
+}
+
+
+/* STYLING THE PARAGRAPH */
+
+.wrapper p {
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
     color: blue;
     font-size: 35px;
     text-align: center;
@@ -53,3 +67,53 @@ h2 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
+
+
+/* CLEAR: FLOAT IS ADDED TO AN ELEMENT TO PREVENT IT FROM BEING COVERED BY FLOATING ELEMENTS */
+
+
+/*=========[COLUMNS]===============================================================================================================================*/
+
+section {
+    width: 43%;
+    float: left;
+    padding: 1%;
+    margin: 2%;
+    background-color: yellow;
+    border: 5px solid black;
+}
+
+
+/*========[SPLITTING INTO COLUMNS WITHOUT USING FLOAT]==============================================================================================*/
+
+
+/*
+.columns-nofloat {
+    background-color: beige;
+    height: 400px;
+    width: 75%;
+    margin: auto;
+    padding: 40px;
+    border: 5px solid black;
+    clear: float;
+}
+
+.columns-nofloat p {
+    text-align: justify;
+    column-count: 3;
+    column-gap: 100px;
+    column-rule: dashed black 5px;
+}
+*/
+
+
+/*=======[BOX-SIZING]============================================================================================================================================*/
+
+
+/* box-sizing: border-box; */
+
+
+/* BORDER-BOX APPLIES A WIDTH WHICH IS THE TOTAL WIDTH OF THE CONTENT, BORDER, AND PADDING */
+
+
+/* IT DOES NOT INCLUDE THE WIDTH OF THE MARGIN */
