@@ -53,9 +53,10 @@ h2 {
 /* STYLING THE PARAGRAPH */
 
 .wrapper p {
-    margin: 5px;
+    margin: 8px;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 .title {
@@ -75,12 +76,13 @@ h2 {
 /*=========[COLUMNS]===============================================================================================================================*/
 
 section {
-    width: 43%;
+    width: 41%;
     float: left;
-    padding: 1%;
+    padding: 2%;
     margin: 2%;
     background-color: yellow;
     border: 5px solid black;
+    text-align: justify;
 }
 
 

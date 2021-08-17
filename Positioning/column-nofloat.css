@@ -1,4 +1,8 @@
-/*========[SPLITTING INTO COLUMNS WITHOUT USING FLOAT]==============================================================================================*/
+/*========[SPLITTING INTO COLUMNS WITHOUT USING FLOAT]==========================================================================================================================*/
+
+body {
+    background-color: gray;
+}
 
 .columns-nofloat {
     background-color: beige;
@@ -13,5 +17,16 @@
     text-align: justify;
     column-count: 3;
     column-gap: 100px;
-    column-rule: dashed black 5px;
+    column-rule: 5px dashed red;
 }
+
+h1 {
+    color: red;
+    text-align: center;
+    /* USING THE CSS TEXT STROKE FEATURE TO ADD AN OUTLINE */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+
+/*===============================================================================================================================================================================*/
