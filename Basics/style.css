@@ -1,32 +1,38 @@
 /* CSS USES SELECTORS AND DECLARATION BLOCKS */
 
+
 /* NOTE: COLOURS CAN BE SPECIFIED USING PREDEFINED COLOUR NAMES or RGB, HEX, 
 HSL, RGBA, HSLA values. */
 
+
 /* STYLING ALL ELEMENTS WITHIN THE HTML BODY */
+
 body {
     background-image: url("https://barbarashdwallpapers.com/wp-content/uploads/2015/05/White-wave-pattern-wallpaper-1.jpg");
     background-repeat: repeat-x-y;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
 }
 
+
 /* UNDERSTANDING THE BOX-MODEL */
+
 div.box-model {
     height: 100px;
     width: 100px;
     padding: 20px;
     margin: 100px;
     border: 10px solid blueviolet;
-    background-color: greenyellow; 
+    background-color: greenyellow;
 }
 
+
 /* FORMATTING TEXT AND FONT */
+
 h2.text {
     color: green;
     text-align: center;
@@ -38,6 +44,7 @@ h2.text {
     line-height: 1.75;
 }
 
+
 /*=====================[OPACITY WITH HOVER EFFECT]========================*/
 
 .trunks {
@@ -46,7 +53,7 @@ h2.text {
 }
 
 .trunks:hover {
-    filter:invert();
+    filter: invert();
 }
 
 .goku {
@@ -58,19 +65,24 @@ h2.text {
     opacity: 1;
 }
 
+
 /*========================[FORMATTING TABLES]==============================*/
 
-table, tr {
+table,
+tr {
     border: 3px solid black;
-    width: 100%; /* THIS MAKES THE TABLE RESPONSIVE SO THAT THE TABLE WIDTH WILL ADJUST ACCPORDING TO THE WIDTH OF THE WINDOW */
+    width: 100%;
+    /* THIS MAKES THE TABLE RESPONSIVE SO THAT THE TABLE WIDTH WILL ADJUST ACCPORDING TO THE WIDTH OF THE WINDOW */
     background-color: gold;
 }
 
 td {
     border: 3px solid black;
-    width: 100%; /* THIS MAKES THE TABLE RESPONSIVE SO THAT THE TABLE WIDTH WILL ADJUST ACCPORDING TO THE WIDTH OF THE WINDOW */
+    width: 100%;
+    /* THIS MAKES THE TABLE RESPONSIVE SO THAT THE TABLE WIDTH WILL ADJUST ACCPORDING TO THE WIDTH OF THE WINDOW */
     background-color: goldenrod;
 }
+
 
 /*========[FORMATTING LINKS IN <a> TAGS BASED ON DIFFERENT STATES]=========*/
 
@@ -93,16 +105,18 @@ a:active {
 div.youtubelink {
     background: skyblue;
     width: 160px;
- }
+}
 
- div.youtubelink :hover {
-     background-color: blue;
- }
+div.youtubelink :hover {
+    background-color: blue;
+}
 
 
 /* CSS POSITIONING */
 
+
 /* STATIC - THIS IS THE DEFAULT POSITION OF AN ELEMENT */
+
 div.static {
     position: static;
     width: 200px;
@@ -112,7 +126,9 @@ div.static {
     text-align: center;
 }
 
+
 /* THE ELEMENT CAN BE POSITIONED USING TOP, BOTTOM, RIGHT AND LEFT */
+
 div.relative {
     position: relative;
     top: 40px;
@@ -124,7 +140,9 @@ div.relative {
     text-align: center;
 }
 
+
 /* */
+
 div.fixed {
     position: fixed;
     right: 0px;
@@ -134,8 +152,10 @@ div.fixed {
     background-color: fuchsia;
     border: 3px solid black;
     text-align: center;
-    z-index: -1; /* SPECIFIES THE STACK ORDER OF THE ELEMENT */
+    z-index: -1;
+    /* SPECIFIES THE STACK ORDER OF THE ELEMENT */
 }
+
 
 /* THE Z-INDEX PROPERTY SPECIFIES THE STACK ORDER OF THE ELEMENT */
 
@@ -161,74 +181,22 @@ div.sticky {
     text-align: center;
 }
 
-  
-/* STYLING A FORM */
-div.form {
-    background: rgb(210, 247, 2);
-    border: 10px solid transparent;
-    border-image: url(https://www.lsprints.co.uk/ekmps/shops/lsprints/images/stock-designs-zebra-print-pattern-black-yellow-42299-p.jpg) 30 round;
-    border-image-slice: 2%;
-    width: 200px;
-    height: 300px;
-    padding: 50px;
-    margin-left: 200px;
-}
-
-input[type=text] {
-    width: 180px;
-    display:inline-block;
-    box-sizing: border-box;
-    border: 3px solid black;
-}
-
-input[type=text]:hover {
-    box-shadow: 2px 2px 5px grey;
-}
-
-input[type=email] {
-    width: 180px;
-    display:inline-block;
-    box-sizing: border-box;
-    border: 3px solid black;
-}
-
-input[type=email]:hover {
-    box-shadow: 2px 2px 5px grey;
-}
-
-input[type=submit] {
-    width: 100px;
-    display:inline-block;
-    box-sizing: border-box;
-    border: 3px solid black;
-    background: blue;
-    color: yellow;
-}
-
-/* STYLING A DROPDOWN BOX */
-div.dropdown {
-    min-width: 180px;
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    min-width: 180px;
-    color:black;
-    border: 3px solid black;
-    position: absolute;
-    background-color: white;
-  }
 
 /* STYLING A PSEUODO ELEMENT */
+
 p::first-line {
     color: green;
 }
 
+
 /* IMAGE SPRITES - THIS IS A COLLECTION OF IMAGES PUT IN A SINGLE IMAGE */
+
+
 /* TRADITIONAL ALTERNATIVE TO SVG IMAGES */
 
+
 /* CALLING ON ANCHOR TAG ELEMENTS BASED ON TARGET ATTRIBUTES */
+
 a[target] {
     background: yellow;
 }
@@ -259,7 +227,7 @@ p#grad-text {
     -webkit-text-fill-color: transparent;
     font-size: 40px;
     font-weight: 500;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 20px;
 }
 
@@ -303,12 +271,17 @@ div.animation {
 }
 
 @keyframes color-fade {
-    from {background: rgb(185, 23, 185);}
-    to {background:rgb(0, 255, 0);}
-} 
+    from {
+        background: rgb(185, 23, 185);
+    }
+    to {
+        background: rgb(0, 255, 0);
+    }
+}
 
 
 /* TOOLTIPS */
+
 .tooltip {
     font-family: 'Segoe UI';
     width: 200px;
@@ -329,14 +302,14 @@ div.animation {
     background-color: black;
     color: white;
     border-radius: 6px;
-
 }
 
 .tooltip:hover .tooltip-text {
     visibility: visible;
 }
 
-/*==========================[PAGINATION]===================================*/
+
+/*==========================[PAGINATION]===========================================================================================================*/
 
 .pagination {
     display: inline-block;
@@ -344,29 +317,35 @@ div.animation {
 
 .pagination a {
     color: gray;
-    float: left;   /* Elements next to a floating element will flow around it */
+    float: left;
+    /* Elements next to a floating element will flow around it */
     padding: 6px 16px;
     text-decoration: none;
-    font-family:Cambria;
+    font-family: Cambria;
     font-size: 50px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .pagination a:hover {
     color: blue;
 }
 
-/*============================[FLOATS]====================================*/
+
+/*============================[FLOATS]===============================================================================================================*/
+
 
 /* - THE FLOAT PROPERTY SPECIFIES WHETHER AN ELEMENT SHOULD FLOAT LEFT/RIGHT */
+
+
 /* - THE CONTENT NEXT TO A FLOATING ELEMENT WILL FLOW AROUND IT */
+
+
 /* - THIS IS UDEFUL FOR MAKING TEXT WRAP AROUND AN IMAGE
 
 /* The CSS clear property specifies what elements can float beside the cleared element and on which side. */
 
 
-
-/*============================[FOOTER]========================================*/
+/*============================[FOOTER]===========================================================================================================*/
 
 .footer {
     width: 100%;
@@ -375,75 +354,105 @@ div.animation {
     position: sticky
 }
 
+
 /*===================================================================================================================================================
 
 /* COMBINATORS - DEFINE THE RELATIONSHIP BETWEEN SIMPLE SELECTORS */
 
+
 /* THERE ARE 4 DIFFERENT CSS COMBINATORS: */
 
+
 /* 1. descendant selector (space)   */
+
+
 /* 2. child selector (>)            */
+
+
 /* 3. adjacent sibling selector (+) */
+
+
 /* 4. general sibling selector (~)  */
+
 
 /*===================================================================================================================================================
 
 /* MARGINS - THE TRANSPARENT SPACING AROUND AN ELEMENT'S BORDER */
 
-    /* All margin properties can have the following values:
+
+/* All margin properties can have the following values:
 
     /* length - specifies a margin in px, pt, cm
     /* % - specifies a margin in % of the width of the containing element
     /* inherit - specifies that the margin should be inherited from the parent element */
 
-    div.center {
-        margin: auto;  /* the browser calculates the Margins */
-        padding: 10px;
-        width: 250px;
-        height: 250px;
-        border: 10px solid blue;
-        background: peru;
-    }
+div.center {
+    margin: auto;
+    /* the browser calculates the Margins */
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border: 10px solid blue;
+    background: peru;
+}
 
-    div.center p {
-        font-size: large;
-        color: white;
-        text-align: center;
-    }
+div.center p {
+    font-size: large;
+    color: white;
+    text-align: center;
+}
 
-    #div-0 { margin: 20px; }
-    #div-1 { margin-top: 20px; }
-    #div-2 { margin-right: 20px; }
-    #div-3 { margin-bottom: 20px; }
-    #div-4 { margin-left: 20px; }
+#div-0 {
+    margin: 20px;
+}
 
-    div.container {
+#div-1 {
+    margin-top: 20px;
+}
+
+#div-2 {
+    margin-right: 20px;
+}
+
+#div-3 {
+    margin-bottom: 20px;
+}
+
+#div-4 {
+    margin-left: 20px;
+}
+
+div.container {
     display: inline-block;
     margin: 10px;
     background-color: grey;
-    }
+}
 
-    div.child {
+div.child {
     display: inline-block;
-    text-align: center;    
+    text-align: center;
     padding: 20px;
     background-color: red;
     border-radius: 10px;
     color: whitesmoke;
     font-family: 'Avenir';
     font-weight: bold;
-    }
+}
+
 
 /*=========================== CSS BUTTONS =======================================*/
 
+
 /* USEFUL RESOURCE: https://freefrontend.com/css-buttons/ */
 
+
 /* SOCIAL MEDIA ICONS */
+
 .wrapper {
     display: inline-flex;
-  }
-  
-  .wrapper .icon {
+}
+
+.wrapper .icon {
     position: relative;
     background-color: #ffffff;
     border-radius: 50%;
@@ -459,9 +468,9 @@ div.animation {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip {
+}
+
+.wrapper .tooltip {
     position: absolute;
     top: 0;
     font-size: 14px;
@@ -473,9 +482,9 @@ div.animation {
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip::before {
+}
+
+.wrapper .tooltip::before {
     position: absolute;
     content: "";
     height: 8px;
@@ -485,59 +494,58 @@ div.animation {
     left: 50%;
     transform: translate(-50%) rotate(45deg);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .icon:hover .tooltip {
+}
+
+.wrapper .icon:hover .tooltip {
     top: -45px;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  }
-  
-  .wrapper .icon:hover span,
-  .wrapper .icon:hover .tooltip {
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-  }
-  
-  .wrapper .facebook:hover,
-  .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
     background-color: #3b5999;
     color: #ffffff;
-  }
-  
-  .wrapper .twitter:hover,
-  .wrapper .twitter:hover .tooltip,
-  .wrapper .twitter:hover .tooltip::before {
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
     background-color: #46c1f6;
     color: #ffffff;
-  }
-  
-  .wrapper .instagram:hover,
-  .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
     background-color: #e1306c;
     color: #ffffff;
-  }
-  
-  .wrapper .github:hover,
-  .wrapper .github:hover .tooltip,
-  .wrapper .github:hover .tooltip::before {
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
     background-color: #333333;
     color: #ffffff;
-  }
-  
-  .wrapper .youtube:hover,
-  .wrapper .youtube:hover .tooltip,
-  .wrapper .youtube:hover .tooltip::before {
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
     background-color: #de463b;
     color: #ffffff;
-  }
-  
-
+}
 
 
 /*===========================================================================================================================================*/
+
 
 /* PADDING - THE SPACE BETWEEN AN ELEMENT'S BORDER AND IT'S CONTENT
 
@@ -547,6 +555,7 @@ div.animation {
     /* padding-left 
 
 /*===========================================================================================================================================*/
+
 
 /* DISPLAY PROPERTIES FOR HTML ELEMENTS
 
@@ -560,26 +569,47 @@ div.animation {
 /*===========================================================================================================================================*/
 
 
-
 /*============================[BORDERS]==================================== */
+
 
 /*  The CSS border properties allow you to specify the style, width and color of an elements border. */
 
-    /* dotted - Defines a dotted border */
-    /* dashed - Defines a dashed border */
-    /* solid - Defines a solid border */
-    /* double - Defines a double border */
-    /* groove - Defines a 3D grooved border.  The effect depends on the border-color value */
-    /* ridge - Defines a 3D ridged border.  The effect depends on the border-color value */
-    /* inset - Defines a 3D inset border.  The effect depends on the border-color value */
-    /* outset - Defines a 3D outset border.  The effect depends on the border-color value */
-    /* none - Defines no border */
-    /* hidden - Defines a hidden border */
+
+/* dotted - Defines a dotted border */
+
+
+/* dashed - Defines a dashed border */
+
+
+/* solid - Defines a solid border */
+
+
+/* double - Defines a double border */
+
+
+/* groove - Defines a 3D grooved border.  The effect depends on the border-color value */
+
+
+/* ridge - Defines a 3D ridged border.  The effect depends on the border-color value */
+
+
+/* inset - Defines a 3D inset border.  The effect depends on the border-color value */
+
+
+/* outset - Defines a 3D outset border.  The effect depends on the border-color value */
+
+
+/* none - Defines no border */
+
+
+/* hidden - Defines a hidden border */
 
 
 /*===========================================================================================================================================*/
 
+
 /* BACKGROUNDS */
+
 
 /* background-color – sets the background color
 /* background-image – links to an image and displays it in the background
@@ -588,6 +618,7 @@ div.animation {
 
 /*===========================================================================================================================================*/
 
+
 /* OUTLINE - THIS IS A LINE THAT IS DRAWN AROUND AN ELEMENT, OUTSIDE OF THE BORDER
 /* - THE OUTLINE EXISTS BETWEEN THE BORDER AND THE MARGIN
 
@@ -595,20 +626,25 @@ div.animation {
 
 /*===========================================================================================================================================*/
 
+
 /* MEDIA QUERIES - USED FOR MOBILE RESPONSIVENESS */
 
+
 /* A MEDIA QUERY MUST ALWAYS BE WRITTEN AFTER THE STYLING IT IS TRYING */
+
+
 /* TO OVERWRITE */
 
+
 /* MOBILE FIRST [INCREASING SCREEN WIDTH] */
-@media (min-width: 600px) {
-    
-}
+
+@media (min-width: 600px) {}
+
 
 /* DESKTOP FIRST [DECREASING SCREEN WIDTH] */
-@media (max-width: 600px) {
-    
-}
+
+@media (max-width: 600px) {}
+
 
 /* CREATING A MEDIA QUERY */
 
@@ -617,6 +653,7 @@ div.animation {
         font-size: 1.25 rem;
     }
 }
+
 
 /* WHEN THE SCREEN WIDTH IS > 600PX, THE FONT-SIZE WILL BE 1.25 REM */
 
@@ -627,47 +664,67 @@ div.animation {
     }
 }
 
+
 /* WHEN THE SCREEN WIDTH IS INCREASED BEYOND 800PX, THE FONT-SIZE WILL */
+
+
 /* WILL BECOME 1.5 REM AND LINE HEIGHT WILL BECOME 1.5 */
 
+
 /* OTHER RULES THAN CAN BE MODIFIED WITHIN BRACKETS IN MEDIA QUERIES */
+
+
 /* ORIENTATION: PORTRAIT [HEIGHT > WIDTH] */
+
+
 /* ORIENTATION: LANDSCAPE [WIDTH > HEIGHT] */
+
 
 /* "@media all and ()" is the same as "@media ()" */
 
+
 /* THE "and" KEYWORD IS USED TO CONCATENATE */
+
+
 /* A COMMA CAN BE PLACED BETWEEN RULES TO INDICATE AN "OR" CONDITION */
 
-@media (orientation: landscape), (max-width: 500px) {
-}
+@media (orientation: landscape),
+(max-width: 500px) {}
 
-@media screen and () {
-}
+@media screen and () {}
 
-@media speech and () {
-}
+@media speech and () {}
 
-@media print and () {
-}
+@media print and () {}
+
 
 /*===========================================================================================================================================*/
+
 
 /* CSS GRID */
 
 
 /*===========================================================================================================================================*/
 
+
 /* SPECIFICITY */
+
 
 /* EVERY SELECTOR HAS A POSITION IN THE HIERARCHY OF SPECIFICITY */
 
+
 /*===========================================================================================================================================*/
+
 
 /* !IMPORTANT RULE */
 
+
 /* IF THE !IMPORTANT RULE IS APPLIED TO A SPECIFIC PROPERTY OF AN */
+
+
 /* ELEMENT, ALL PREVIOUS STYLING WILL BE OVERWITTEN FOR THAT PROPERTY OF */
+
+
 /* OF THAT ELEMENT */
 
 p.important {
@@ -677,19 +734,24 @@ p.important {
     color: red!important;
 }
 
-/* THE ABOVE PARAGRAPH WILL HAVE RED TEXT ON A LIME BACKGROUND */ 
+
+/* THE ABOVE PARAGRAPH WILL HAVE RED TEXT ON A LIME BACKGROUND */
 
 
 /*===========================================================================================================================================*/
 
+
 /* ADDITIONAL NOTES: */
 
+
 /* - COUNTERS ARE VARIABLES CONTROLLED AND INCREMENTED BY CSS RULES */
+
+
 /* - Z-PROPERTY SPECIFIES THE STACK ORDER OF AN ELEMENT */
 
 
-
 /*===========================[ CSS UNITS ]================================== */
+
 
 /* •	px – Pixels
 /* •	% - Percentages
@@ -699,6 +761,5 @@ p.important {
 
 */
 
+
 /*===========================================================================================================================================*/
-
-

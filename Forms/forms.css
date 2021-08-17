@@ -1,0 +1,89 @@
+/* STYLING THE BODY OF THE OVERALL WEB PAGE */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, rgb(248, 2, 174), rgb(212, 51, 51));
+    max-height: 1000px;
+}
+
+
+/* STYLING THE HEADERS */
+
+h1 {
+    color: gold;
+    text-align: center;
+    /* USING THE CSS TEXT STROKE FEATURE TO ADD AN OUTLINE */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+h2 {
+    color: gold;
+    text-align: center;
+    outline: black;
+    /* USING THE CSS TEXT STROKE FEATURE TO ADD AN OUTLINE */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+
+/* STYLING A FORM */
+
+div.form {
+    background: rgb(210, 247, 2);
+    border: 10px solid transparent;
+    border-image: url(https://www.lsprints.co.uk/ekmps/shops/lsprints/images/stock-designs-zebra-print-pattern-black-yellow-42299-p.jpg) 30 round;
+    border-image-slice: 2%;
+    width: 200px;
+    height: 300px;
+    padding: 50px;
+    margin: auto;
+}
+
+input[type=text] {
+    width: 180px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+
+input[type=text]:hover {
+    box-shadow: 2px 2px 5px grey;
+}
+
+input[type=email] {
+    width: 180px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+
+input[type=email]:hover {
+    box-shadow: 2px 2px 5px grey;
+}
+
+input[type=submit] {
+    width: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px solid black;
+    background: blue;
+    color: yellow;
+}
+
+
+/* STYLING A DROPDOWN BOX */
+
+div.dropdown {
+    min-width: 180px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    min-width: 180px;
+    color: black;
+    border: 3px solid black;
+    position: absolute;
+    background-color: white;
+}
