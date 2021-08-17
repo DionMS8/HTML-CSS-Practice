@@ -1,16 +1,18 @@
-/* CSS USES SELECTORS AND DECLARATION BLOCKS */
-
-
-/* NOTE: COLOURS CAN BE SPECIFIED USING PREDEFINED COLOUR NAMES or RGB, HEX, 
-HSL, RGBA, HSLA values. */
-
-
-/* STYLING ALL ELEMENTS WITHIN THE HTML BODY */
+/*=====[CSS USES SELECTORS AND DECLARATION BLOCKS]===============================================================================================================*/
 
 body {
     background-image: url("https://barbarashdwallpapers.com/wp-content/uploads/2015/05/White-wave-pattern-wallpaper-1.jpg");
     background-repeat: repeat-x-y;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: rgb(247, 122, 91);
+    text-align: center;
+    text-decoration: underline;
+    /* USING THE CSS TEXT STROKE FEATURE TO ADD AN OUTLINE */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(11, 11, 184);
 }
 
 h2 {
@@ -19,7 +21,15 @@ h2 {
 }
 
 
-/* UNDERSTANDING THE BOX-MODEL */
+/*=====[USING THE NTH-CHILD() SELECTOR]===========================================================================================================================
+
+-
+-
+-
+-
+
+
+/*=====[UNDERSTANDING THE BOX-MODEL]===============================================================================================================================*/
 
 div.box-model {
     height: 100px;
@@ -31,21 +41,22 @@ div.box-model {
 }
 
 
-/* FORMATTING TEXT AND FONT */
+/*=====[FORMATTING TEXT AND FONT]====================================================================================================================================*/
 
-h2.text {
-    color: green;
+p.text {
+    color: rgb(255, 0, 85);
     text-align: center;
     text-decoration: underline;
-    text-shadow: 2px 2px 5px greenyellow;
+    text-shadow: 2px 2px 5px lime;
     text-transform: uppercase;
-    font-size: medium;
+    font-size: 50px;
     font-weight: 400;
-    line-height: 1.75;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*line-height: 1.75;*/
 }
 
 
-/*=====================[OPACITY WITH HOVER EFFECT]========================*/
+/*=====[OPACITY WITH HOVER EFFECT]================================================================================================================================================*/
 
 .trunks {
     opacity: 0.5;
@@ -262,25 +273,8 @@ div#transition2:hover {
     width: 300px;
 }
 
-div.animation {
-    width: 400px;
-    height: 200px;
-    background: dodgerblue;
-    animation-name: color-fade;
-    animation-duration: 4s;
-}
 
-@keyframes color-fade {
-    from {
-        background: rgb(185, 23, 185);
-    }
-    to {
-        background: rgb(0, 255, 0);
-    }
-}
-
-
-/* TOOLTIPS */
+/*====={TOOLTIPS}======================================================================================================================================*/
 
 .tooltip {
     font-family: 'Segoe UI';
@@ -309,7 +303,7 @@ div.animation {
 }
 
 
-/*==========================[PAGINATION]===========================================================================================================*/
+/*=====[PAGINATION]===========================================================================================================================================================*/
 
 .pagination {
     display: inline-block;
@@ -331,7 +325,7 @@ div.animation {
 }
 
 
-/*============================[FLOATS]===============================================================================================================*/
+/*=====[FLOATS]==================================================================================================================================================================*/
 
 
 /* - THE FLOAT PROPERTY SPECIFIES WHETHER AN ELEMENT SHOULD FLOAT LEFT/RIGHT */
@@ -375,7 +369,7 @@ div.animation {
 /* 4. general sibling selector (~)  */
 
 
-/*===================================================================================================================================================
+/*==============================================================================================================================================================================
 
 /* MARGINS - THE TRANSPARENT SPACING AROUND AN ELEMENT'S BORDER */
 
@@ -440,13 +434,13 @@ div.child {
 }
 
 
-/*=========================== CSS BUTTONS =======================================*/
+/*=====[CSS BUTTONS]===========================================================================================================================================================*/
 
 
-/* USEFUL RESOURCE: https://freefrontend.com/css-buttons/ */
+/*=====[USEFUL RESOURCE: https://freefrontend.com/css-buttons/]===============================================================================================================*/
 
 
-/* SOCIAL MEDIA ICONS */
+/*=====[SOCIAL MEDIA ICONS]===================================================================================================================================================*/
 
 .wrapper {
     display: inline-flex;
@@ -544,32 +538,18 @@ div.child {
 }
 
 
-/*===========================================================================================================================================*/
+/*=====[PADDING]===========================================================================================================================================================
+
+- THIS IS THE SPACE BETWEEN AN ELEMENT'S BORDER AND IT'S CONTENT
+- padding-top 
+- padding-right 
+- padding-bottom 
+- padding-left 
 
 
-/* PADDING - THE SPACE BETWEEN AN ELEMENT'S BORDER AND IT'S CONTENT
-
-    /* padding-top 
-    /* padding-right 
-    /* padding-bottom 
-    /* padding-left 
-
-/*===========================================================================================================================================*/
 
 
-/* DISPLAY PROPERTIES FOR HTML ELEMENTS
-
-    /* display: block; - THE ELEMENT CAN ACCEPT BOX-MODEL PROPERTIES 
-    /* display: inline; - PLACES AN ELEMENT IN LINE WITH OTHER ELEMENTS (HORIZONTALLY)
-    /* display: inline-block; - BOTH BLOCK AND IN-LINE PROPERTIES
-    /* display: none; - THIS WILL COMPLETELY HIDE AN ELEMENT
-    /* display: flex;
-    /* display: static;
-
-/*===========================================================================================================================================*/
-
-
-/*============================[BORDERS]==================================== */
+/*============================[BORDERS]============================================================================================================= */
 
 
 /*  The CSS border properties allow you to specify the style, width and color of an elements border. */
@@ -605,10 +585,7 @@ div.child {
 /* hidden - Defines a hidden border */
 
 
-/*===========================================================================================================================================*/
-
-
-/* BACKGROUNDS */
+/*=====[BACKGROUNDS]===========================================================================================================================================================*/
 
 
 /* background-color – sets the background color
@@ -616,21 +593,20 @@ div.child {
 /* background-repeat – for HTML elements larger than the background, it determines which way to tile repeat the image
 /* background-position – sets the background position
 
-/*===========================================================================================================================================*/
+/*=====[OUTLINE]==============================================================================================================================================================*/
 
 
-/* OUTLINE - THIS IS A LINE THAT IS DRAWN AROUND AN ELEMENT, OUTSIDE OF THE BORDER
+/* - THIS IS A LINE THAT IS DRAWN AROUND AN ELEMENT, OUTSIDE OF THE BORDER
 /* - THE OUTLINE EXISTS BETWEEN THE BORDER AND THE MARGIN
 
 
-
-/*===========================================================================================================================================*/
-
-
-/* MEDIA QUERIES - USED FOR MOBILE RESPONSIVENESS */
+/*=====[MEDIA QUERIES]=========================================================================================================================================================*/
 
 
-/* A MEDIA QUERY MUST ALWAYS BE WRITTEN AFTER THE STYLING IT IS TRYING */
+/* - THESE ARE USED PRIMARILY FOR MOBILE RESPONSIVENESS */
+
+
+/* - A MEDIA QUERY MUST ALWAYS BE WRITTEN AFTER THE STYLING IT IS TRYING */
 
 
 /* TO OVERWRITE */
@@ -738,10 +714,7 @@ p.important {
 /* THE ABOVE PARAGRAPH WILL HAVE RED TEXT ON A LIME BACKGROUND */
 
 
-/*===========================================================================================================================================*/
-
-
-/* ADDITIONAL NOTES: */
+/*=====[ADDITIONAL NOTES]====================================================================================================================================================*/
 
 
 /* - COUNTERS ARE VARIABLES CONTROLLED AND INCREMENTED BY CSS RULES */
@@ -750,7 +723,11 @@ p.important {
 /* - Z-PROPERTY SPECIFIES THE STACK ORDER OF AN ELEMENT */
 
 
-/*===========================[ CSS UNITS ]================================== */
+/* - COLOURS CAN BE SPECIFIED USING PREDEFINED COLOUR NAMES or RGB, HEX, 
+HSL, RGBA, HSLA values. */
+
+
+/*=====[ CSS UNITS ]=========================================================================================================================================================== */
 
 
 /* •	px – Pixels
@@ -762,4 +739,4 @@ p.important {
 */
 
 
-/*===========================================================================================================================================*/
+/*============================================================================================================================================================================*/

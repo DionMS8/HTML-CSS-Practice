@@ -219,6 +219,16 @@ WILL IGNORE IT AND MAY TEND TO APPEAR BEHIND THE ABSOLUTE ELEMENT
 - IN-LINE-BLOCK ALLOWS AN ELEMENT TO REMAIN ON THE SAME LINE BUT IT'S MARGIN, PADDING, AND DIMENSIONS CAN BE DEFINED
 
 
+/*=====[DISPLAY PROPERTIES FOR HTML ELEMENTS]==========================================================================================================
+
+    /* display: block; - THE ELEMENT CAN ACCEPT BOX-MODEL PROPERTIES 
+    /* display: inline; - PLACES AN ELEMENT IN LINE WITH OTHER ELEMENTS (HORIZONTALLY)
+    /* display: inline-block; - BOTH BLOCK AND IN-LINE PROPERTIES
+    /* display: none; - THIS WILL COMPLETELY HIDE AN ELEMENT
+    /* display: flex;
+    /* display: static;
+
+
 */
 
 

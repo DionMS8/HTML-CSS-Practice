@@ -1,117 +1,166 @@
 /*=============================[CSS GRID]=====================================*/
 
+
 /* IMPORTING A GOOGLE FONT */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
 /* STYLING THE BODY */
+
 body {
-  background: rgb(12, 135, 235)
+    background: rgb(12, 135, 235)
 }
+
 
 /*STYLING ALL <h2> ELEMENTS */
+
 h2 {
-  color: white;
-  font-family:'Segoe UI';
-  font-size: 50px;
-  text-align: center;
-  text-decoration: underline;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
 }
+
 
 /* STYLING THE GRID */
+
 div.grid-container {
-  display: grid; /* THIS DEFINES THE DIV AS A GRID CONTAINER */
-  grid-template-columns: 200px 300px 200px; /* DEFINING WIDTH OF COLUMNS */
-  grid-gap: 10px; /* DEFINING THE SPACING BETWEEN DIFFERENT TRACKS */
-  height: 100vh;
-  justify-content: center; /* DEFINING HOW THE GRID-ITEMS ARE ALIGNED WITHIN THE CONTAINER */
-  align-content: center;
-  margin: 0;
-  font-family: 'Poppins', sans-serif; 
+    display: grid;
+    /* THIS DEFINES THE DIV AS A GRID CONTAINER */
+    grid-template-columns: 200px 300px 200px;
+    /* DEFINING WIDTH OF COLUMNS */
+    grid-gap: 10px;
+    /* DEFINING THE SPACING BETWEEN DIFFERENT TRACKS */
+    height: 100vh;
+    justify-content: center;
+    /* DEFINING HOW THE GRID-ITEMS ARE ALIGNED WITHIN THE CONTAINER */
+    align-content: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
+
 /* STYLING THE GRID ITEMS */
-div.grid-container > div {
-  padding: 40px;
-  background: rgb(165, 18, 165);
-  text-align: center;
-  font-size: 32px;
-  border-radius: 10px;
+
+div.grid-container>div {
+    padding: 40px;
+    background: rgb(165, 18, 165);
+    text-align: center;
+    font-size: 32px;
+    border-radius: 10px;
 }
+
 
 /* STYLING THE GRID ITEMS WITH AN ODD CLASS NUMBER */
 
+
 /* NOTE: GRID ITEMS ARE DIRECT CHILDREN OF THE GRID CONTAINER */
 
-div.grid-container > div:nth-child(odd) {
-  background: lime;
+div.grid-container>div:nth-child(odd) {
+    background: lime;
 }
+
 
 /* USING SHORTHAND LINE-POSITIONING TO STYLE GRID TRACKS*/
 
+
 /* NOTE: THE VALUE BEFORE THE / IS THE START LINE AND THE VALUE AFTER IS */
+
+
 /* THE END LINE */
 
 div.one {
-  grid-column: 1 / 4; /* DRAWN FROM COLUMN LINE 1 TO COLUMN LINE 4 */
-  border: 4px solid black; /* ADDING A BORDER */
+    grid-column: 1 / 4;
+    /* DRAWN FROM COLUMN LINE 1 TO COLUMN LINE 4 */
+    border: 4px solid black;
+    /* ADDING A BORDER */
 }
 
 div.two {
-  border: 4px solid black; /* ADDING A BORDER */
+    border: 4px solid black;
+    /* ADDING A BORDER */
 }
 
 div.three {
-  grid-column: 2 / 3; /* DRAWN FROM COLUMN LINE 2 TO COLUMN LINE 3 */
-  grid-row: 2 / 4; /* DRAWN FROM ROW LINE 2 TO ROW LINE 4 */
-  border: 4px solid black; /* ADDING A BORDER */
+    grid-column: 2 / 3;
+    /* DRAWN FROM COLUMN LINE 2 TO COLUMN LINE 3 */
+    grid-row: 2 / 4;
+    /* DRAWN FROM ROW LINE 2 TO ROW LINE 4 */
+    border: 4px solid black;
+    /* ADDING A BORDER */
 }
 
 div.four {
-/*   grid-column: 1 / 3; */
-border: 4px solid black; /* ADDING A BORDER */
+    /*   grid-column: 1 / 3; */
+    border: 4px solid black;
+    /* ADDING A BORDER */
 }
 
 div.five {
-  grid-row: 3 / 5;
-  border: 4px solid black; /* ADDING A BORDER */
+    grid-row: 3 / 5;
+    border: 4px solid black;
+    /* ADDING A BORDER */
 }
 
 div.six {
-  border: 4px solid black; /* ADDING A BORDER */
+    border: 4px solid black;
+    /* ADDING A BORDER */
 }
 
 div.seven {
-  grid-column: 2 / 4;
-  border: 4px solid black; /* ADDING A BORDER */
+    grid-column: 2 / 4;
+    border: 4px solid black;
+    /* ADDING A BORDER */
 }
 
 div.eight {
-  grid-column: 1 / 4;
-  border: 4px solid black; /* ADDING A BORDER */
+    grid-column: 1 / 4;
+    border: 4px solid black;
+    /* ADDING A BORDER */
 }
 
 
 /*============================[NOTES]=======================================*/
 
+
 /* GRID TRACKS REFER TO ROWS AND COLUMNS */
 
+
 /* DEFINING WIDTH DIMENSIONS OF GRID TRACKS */
+
+
 /* - grid-template-columns: */
+
+
 /* - grid-template-rows: */
 
+
 /* grid-template-columns: 100px 100px 100px */
+
+
 /* THIS CAN ALSO BE WRITTEN AS FOLLOWS: */
+
+
 /* grid-template-columns: repeat(3, 100px) */
 
 
 /* GRIDS CAN BE NESTED */
 
+
 /* GUTTERS REFER TO THE GAPS OR SPACING BETWEEN ROWS AND COLUMNS */
 
+
 /* DEFINING GUTTERS */
+
+
 /* - row-gap: */
+
+
 /* - column-gap: */
 
+
 /* A GRID CELL IS THE SMALL UNIT ON A GRID */
+
 
 /*===========================================================================*/

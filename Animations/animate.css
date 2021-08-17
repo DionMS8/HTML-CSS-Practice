@@ -1,0 +1,31 @@
+body {
+    background: rgb(12, 115, 122);
+}
+
+h1 {
+    color: rgb(189, 255, 7);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* USING THE CSS TEXT STROKE FEATURE TO ADD AN OUTLINE */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(241, 55, 8);
+}
+
+div.animation {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    background: dodgerblue;
+    animation-name: color-fade;
+    animation-duration: 4s;
+}
+
+@keyframes color-fade {
+    from {
+        background: rgb(185, 23, 185);
+    }
+    to {
+        background: rgb(0, 255, 0);
+    }
+}
