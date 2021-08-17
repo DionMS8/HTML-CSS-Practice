@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+
+/* NOTES
+
+- FLEXBOX CAN CREATE ROWS OR COLUMNS BUT NOT BOTH AT THE SAME TIME
+- USING FLEX-BASIS AS OPPOSED TO WIDTH
+
+*/
