@@ -85,6 +85,68 @@ section {
     text-align: justify;
 }
 
+.columns::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pro-pic-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pro-pic-container {
+    border: 5px solid black;
+    background: yellow;
+    width: 46%;
+    margin: auto;
+}
+
+.square {
+    float: left;
+    padding: 10px 10px 0px 10px;
+}
+
+.square img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.landscape {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid black;
+    float: left;
+    margin-top: 0;
+    margin: -30px 10px 0px 10px;
+}
+
+.landscape img {
+    height: 220px;
+    margin-left: -48%;
+    margin-top: -3%;
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid black;
+    float: left;
+    margin: -10px 10px 0px 10px;
+}
+
+.portrait img {
+    width: 100%;
+}
+
 
 /*========[SPLITTING INTO COLUMNS WITHOUT USING FLOAT]==============================================================================================*/
 
