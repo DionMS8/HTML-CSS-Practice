@@ -91,6 +91,9 @@ section {
     display: table;
 }
 
+
+/*=======[PROFILE PICTURES]============================================================================================================================*/
+
 .pro-pic-container::after {
     content: "";
     clear: both;
@@ -99,6 +102,7 @@ section {
 
 .pro-pic-container {
     border: 5px solid black;
+    border-radius: 10px;
     background: yellow;
     width: 46%;
     margin: auto;
@@ -145,6 +149,38 @@ section {
 
 .portrait img {
     width: 100%;
+}
+
+
+/*=======[IMAGE LAYOUT]===================================================================================================================================================*/
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+.row {
+    padding: 0;
+    margin-left: 15%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 2%;
+    align-content: center;
+}
+
+.column img {
+    border: 5px solid yellow;
+    border-radius: 12px;
+}
+
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 
