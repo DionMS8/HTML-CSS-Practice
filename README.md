@@ -46,6 +46,7 @@ This repo contains the code written during my journey to mastering the fundament
 - Pseudoselectors ✔
 - Pseuodoclasses ✔
 - Buttons ✔
+- Cursors ✔
 - Image Gallery
 - Flexbox
 - Grid ✔
