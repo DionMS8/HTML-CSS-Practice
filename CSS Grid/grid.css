@@ -1,6 +1,22 @@
 /*=============================[CSS GRID]=====================================*/
 
 
+/*=====[IMPORTANT TERMS]======================================================
+
+- display: grid;
+- grid-template-columns:
+- grid-template-rows:
+- grid-gap:
+
+- GRID ITEMS
+- CELLS
+- AREA
+- NUMBERS ARE LABELLED BASED ON LINES AND NOT COLUMNS
+
+
+==================================================================================*/
+
+
 /* IMPORTING A GOOGLE FONT */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
@@ -121,46 +137,52 @@ div.eight {
 }
 
 
-/*============================[NOTES]=======================================*/
+/*============================[NOTES]===================================================================================================================
 
 
-/* GRID TRACKS REFER TO ROWS AND COLUMNS */
+/* GRID TRACKS REFER TO ROWS AND COLUMNS 
 
 
-/* DEFINING WIDTH DIMENSIONS OF GRID TRACKS */
+/* DEFINING WIDTH DIMENSIONS OF GRID TRACKS 
 
 
-/* - grid-template-columns: */
+/* - grid-template-columns: 
 
 
-/* - grid-template-rows: */
+/* - grid-template-rows: 
 
 
-/* grid-template-columns: 100px 100px 100px */
+/* grid-template-columns: 100px 100px 100px 
 
 
-/* THIS CAN ALSO BE WRITTEN AS FOLLOWS: */
+/* THIS CAN ALSO BE WRITTEN AS FOLLOWS: 
 
 
-/* grid-template-columns: repeat(3, 100px) */
+/* grid-template-columns: repeat(3, 100px) 
 
 
-/* GRIDS CAN BE NESTED */
+/* GRIDS CAN BE NESTED 
 
 
-/* GUTTERS REFER TO THE GAPS OR SPACING BETWEEN ROWS AND COLUMNS */
+/* GUTTERS REFER TO THE GAPS OR SPACING BETWEEN ROWS AND COLUMNS 
 
 
-/* DEFINING GUTTERS */
+/* DEFINING GUTTERS 
 
 
-/* - row-gap: */
+/* - row-gap: 
 
 
-/* - column-gap: */
+/* - column-gap: 
 
 
-/* A GRID CELL IS THE SMALL UNIT ON A GRID */
+/* A GRID CELL IS THE SMALL UNIT ON A GRID 
 
 
-/*===========================================================================*/
+
+/* - UNLIKE FLEXBOX, GRID ALLOWS FOR ELEMENETS TO INTENSIONALLY BE OVERLAPPED 
+/* - FOR EXAMPLE, PLACING A CAPTION ON AN IMAGE WITH A TRANSPARENT BACKGROUND 
+
+
+
+============================================================================================================================================================*/
