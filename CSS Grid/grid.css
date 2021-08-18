@@ -1,45 +1,42 @@
-/*=============================[CSS GRID]=====================================*/
+/*==========================================================[CSS GRID]================================================================================*/
 
 
-/*=====[IMPORTANT TERMS]======================================================
+/*=====[IMPORTANT NOTES]==============================================================================================================================
 
 - display: grid;
 - grid-template-columns:
 - grid-template-rows:
 - grid-gap:
 
-- GRID ITEMS
-- CELLS
-- AREA
+- GRID ITEMS => GRID ITEMS ARE DIRECT CHILDREN OF THE GRID CONTAINER 
+- GRID TRACKS => ROWS AND COLUMNS 
+- CELLS AND AREAS
 - NUMBERS ARE LABELLED BASED ON LINES AND NOT COLUMNS
+- GRIDS CAN BE NESTED
+- CSS GRID CAN BE USED WITH FLEXBOX
+
+- THE GRID ITSELF EXISTS IN CSS AND NOT IN THE HTML DOM
+- THE GRID ITSELF CANNOT BE STYLED 
 
 
-==================================================================================*/
 
-
-/* IMPORTING A GOOGLE FONT */
+/*=====[IMPORTING A GOOGLE FONT]=====================================================================================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-
-/* STYLING THE BODY */
-
 body {
     background: rgb(12, 135, 235)
 }
 
-
-/*STYLING ALL <h2> ELEMENTS */
-
 h2 {
     color: white;
-    font-family: 'Segoe UI';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
     text-align: center;
     text-decoration: underline;
 }
 
 
-/* STYLING THE GRID */
+/*=====[STYLING THE GRID]=================================================================================================================================*/
 
 div.grid-container {
     display: grid;
@@ -69,9 +66,6 @@ div.grid-container>div {
 
 
 /* STYLING THE GRID ITEMS WITH AN ODD CLASS NUMBER */
-
-
-/* NOTE: GRID ITEMS ARE DIRECT CHILDREN OF THE GRID CONTAINER */
 
 div.grid-container>div:nth-child(odd) {
     background: lime;
@@ -137,10 +131,15 @@ div.eight {
 }
 
 
+/*=====[EXPLICIT VS IMPLICIT]==========================================================================================================================
+
+EXPLICIT GRID => YOU DEFINE ALL PROPERTIES, ROWS, AND COLUMNS
+
+IMPLICIT GRID => SOME PROPERTIES ARE DEFINED AUTOMATICALLY BY THE BROWSER
+
+
+
 /*============================[NOTES]===================================================================================================================
-
-
-/* GRID TRACKS REFER TO ROWS AND COLUMNS 
 
 
 /* DEFINING WIDTH DIMENSIONS OF GRID TRACKS 

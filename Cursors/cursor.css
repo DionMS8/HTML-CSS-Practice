@@ -149,3 +149,23 @@ body {
 .cursors>div:hover {
     background: #eee;
 }
+
+
+/*=========================================================================================================================================================================
+
+WEBKIT CURSORS
+
+-webkit-zoom-in
+-webkit-zoom-out
+-webkit-zoom-grab
+-webkit-zoom-grabbing
+
+
+ADDING AN IMAGE AS A CURSOR 
+
+SYNTAX => cursor: url(images/my-cursor.png), auto;
+
+NOTE: The second value here is a fallback. 
+
+
+*/
