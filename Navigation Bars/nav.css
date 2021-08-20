@@ -1,43 +1,104 @@
+body {
+    background: lightcoral;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* USING THE CSS TEXT STROKE FEATURE TO ADD AN OUTLINE */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
 /* Style the navigation bar */
 
 .navbar {
-    width: 100%;
-    background-color: #555;
+    width: 95%;
     overflow: auto;
+    background-color: rgb(8, 8, 185);
+    border: 5px solid black;
 }
 
 
-/* Navbar links */
-
 .navbar a {
+    /* STYLING THE LAYOUT */
     float: left;
     text-align: center;
     padding: 12px;
+    /* STYLING THE TEXT */
     color: white;
     text-decoration: none;
     font-size: 17px;
+    border-right: 5px solid black;
 }
 
-
-/* Navbar links on mouse-over */
 
 .navbar a:hover {
-    background-color: #000;
+    background-color: silver;
 }
 
 
-/* Current/active navbar link */
+/* INDICATING THE CURRENT/ ACTIVE NAVBAR LINK */
 
 .active {
-    background-color: #04AA6D;
+    background-color: rgb(255, 217, 0);
 }
 
 
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+/* ADDING A MEDIA QUERY FOR RESPONSIVENESS */
+/* THIS WILL AUTOMATICALL DISPLAY THE NAVBAR VERTICALLY ON SCREENS LESS THAN 500 PIXELS WIDTH */ 
 
 @media screen and (max-width: 500px) {
     .navbar a {
         float: none;
         display: block;
     }
+}
+
+/*=====[NAVBAR 2]=============================================================*/
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, white, yellow);
+    border: 5px solid black;
+    padding: 8px;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+nav {
+    float: right; /* PUSHES THE SECTIONS TO START FROM THE RIGHT OF THE NAVBAR */
+    
+}
+
+nav ul {
+    list-style: none; /* REMOVING THE BULLET POINTS FROM THE UL */
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block; /* ALLOWS SECTIONS TO APPEAR SIDE BY SIDE */
+    text-align: center; /* ALIGNING THE TEXT WITHIN EACH NAV SECTION */
+    margin-left: 40px; /* ADDING SPACING BETWEEN SECTIONS */
+    padding-top: 25px; /* ADDING SPACING BETWEEN THE TEXT AND THE TOP */
+}
+
+nav a {
+    text-decoration: none; /* REMOVES THE UNDERLINE FROM THE LINKS */
+    color: black;
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
 }
