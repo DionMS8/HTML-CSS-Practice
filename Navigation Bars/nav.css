@@ -62,20 +62,18 @@ h1 {
     width: 90%;
     margin: 0 auto;
     background-image: linear-gradient(to right, white, yellow);
-    border: 5px solid black;
     padding: 8px;
+    border: 5px solid black;
 }
 
 .container::after {
     content: "";
     display: table;
     clear: both;
-
 }
 
 nav {
     float: right; /* PUSHES THE SECTIONS TO START FROM THE RIGHT OF THE NAVBAR */
-    
 }
 
 nav ul {
@@ -84,21 +82,42 @@ nav ul {
     margin: 0;
 }
 
-nav li {
+nav ul li {
     display: inline-block; /* ALLOWS SECTIONS TO APPEAR SIDE BY SIDE */
     text-align: center; /* ALIGNING THE TEXT WITHIN EACH NAV SECTION */
     margin-left: 40px; /* ADDING SPACING BETWEEN SECTIONS */
-    padding-top: 25px; /* ADDING SPACING BETWEEN THE TEXT AND THE TOP */
+    padding-top: 20px; /* ADDING SPACING BETWEEN THE TEXT AND THE TOP */
+    position: relative;
 }
 
-nav a {
+
+nav ul li a {
     text-decoration: none; /* REMOVES THE UNDERLINE FROM THE LINKS */
     color: black;
     margin: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background: silver; 
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    wdth
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
+    width: 43px;
+    height: 43px;
 }
+
+
+
+/*======================================================================================*/
+
+
+
