@@ -217,6 +217,15 @@ a[target] {
     background: yellow;
 }
 
+.box-shadow {
+    box-shadow: 2px 4px 8px black;
+    margin: 30px;
+}
+
+.drop-shadow {
+    filter: drop-shadow(2px 4px 8px black);
+    margin: 30px;
+}
 
 /*============================GRADIENTS==================================== */
 
