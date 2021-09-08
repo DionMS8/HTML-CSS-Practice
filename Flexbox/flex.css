@@ -5,12 +5,15 @@
 
 /* STYLING ALL OF THE BOXES TO MAKE THEM VISIBLE */
 .box {
+    order: 1;
+    width: calc(33.33333% - 10px);
+    padding: 10px;
+    margin: 5px;
     color: white;
     font-size: 100px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
     text-align: center;
-}
+} 
 
 /* STYLING EACH INDIVIDUAL FLEX ITEM */
 .box1 { background:#1abc9c;}
@@ -26,15 +29,17 @@
 
 .container {
     display: flex; /* OCCUPIES THE ENTIRE WIDTH OF THE SCREEN */
+    flex-direction: row; /* FLEX-DIRECTION SPECIFIES THE DIRECTION OF THE MAIN-AXIS */
+    flex-wrap: wrap;
     border: 8px solid purple;
     height: 100vh; /* APPLIES A HEIGHT OF 100% OF THE VIEW-PORT */
+    
 }
 
 /* STYLING EACH ROW */
 .row {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 
 .column {
@@ -46,9 +51,21 @@
 
 - FLEXBOX CAN CREATE ROWS OR COLUMNS BUT NOT BOTH AT THE SAME TIME
 - USING FLEX-BASIS AS OPPOSED TO WIDTH
+- MAIN AXIS GOES FROM L TO R (BY DEFAULT)
+- CROSS-AXIS GOES FROM T TO B (BY DEFAULT)
 
+FLEX-DIRECTION:
+- ROW (DEFAULT VALUE: MAIN AXIS GOES FROM L TO R)
+- ROW-REVERSE (MAIN AXIS GOES FROM R TO L)
+- COLUMN (MAIN AXIS GOES FROM T TO B)
+- COLUMN-REVERSE (MAIN AXIS GOES FROM B TO T)
 
+- FLEX: 1 => THIS CAUSES THE FLEX ITEMS TO OCCUPY THE WIDTH OF THE WINDOW
 
+ORDERING FLEX ITEMS:
+- EACH ITEM HAS A DEFAULT VALUE OF 0
+- A VALUE THAT IS > 0 WILL PLACE THE ITEM AT THE END OF THE CONTAINER 
+- THIS HELPS FOR RESPONSIVE DESIGN BETWEEN MOBILE AND DESKTOP
 
 
 -------------------------------------------------------------------------*/
