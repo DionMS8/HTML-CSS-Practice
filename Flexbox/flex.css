@@ -1,13 +1,57 @@
+/* APPLING BORDER-BOX SIZING FOR THE BOX-SIZE OF THE DOM */
+* {
+    box-sizing: border-box;
+}
+
+/* STYLING ALL OF THE BOXES TO MAKE THEM VISIBLE */
+.box {
+    color: white;
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+/* STYLING EACH INDIVIDUAL FLEX ITEM */
+.box1 { background:#1abc9c;}
+.box2 { background:#3498db;}
+.box3 { background:#9b59b6;}
+.box4 { background:#34495e;}
+.box5 { background:#f1c40f;}
+.box6 { background:#e67e22;}
+.box7 { background:#e74c3c;}
+.box8 { background:#bdc3c7;}
+.box9 { background:#2ecc71;}
+.box10 { background:#16a085;}
+
+.container {
+    display: flex; /* OCCUPIES THE ENTIRE WIDTH OF THE SCREEN */
+    border: 8px solid purple;
+    height: 100vh; /* APPLIES A HEIGHT OF 100% OF THE VIEW-PORT */
+}
+
+/* STYLING EACH ROW */
 .row {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
 }
 
+.column {
+    margin: 15px;
+}
 
-/* NOTES
+
+/*----------[NOTES]-------------------------------------------------------- 
 
 - FLEXBOX CAN CREATE ROWS OR COLUMNS BUT NOT BOTH AT THE SAME TIME
 - USING FLEX-BASIS AS OPPOSED TO WIDTH
 
-*/
+
+
+
+
+-------------------------------------------------------------------------*/
+
+
+
