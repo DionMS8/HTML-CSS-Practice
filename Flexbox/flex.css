@@ -31,10 +31,37 @@
     display: flex; /* OCCUPIES THE ENTIRE WIDTH OF THE SCREEN */
     flex-direction: row; /* FLEX-DIRECTION SPECIFIES THE DIRECTION OF THE MAIN-AXIS */
     flex-wrap: wrap;
-    border: 8px solid purple;
+    justify-content: end;
+    border: 8px solid mistyrose;
     height: 100vh; /* APPLIES A HEIGHT OF 100% OF THE VIEW-PORT */
     
 }
+
+
+.boxa { background:#1abc9c;}
+.boxb { background:#3498db;}
+.boxc { background:#9b59b6;}
+.boxd { background:#34495e;}
+.boxe { background:#f1c40f;}
+.boxf { background:#e67e22;}
+.boxg { background:#e74c3c;}
+.boxh { background:#bdc3c7;}
+.boxi { background:#2ecc71;}
+.boxj { background:#16a085;}
+
+.container2 {
+    display: flex; /* OCCUPIES THE ENTIRE WIDTH OF THE SCREEN */
+    justify-content: flex-end;
+    
+}
+
+.box2 {
+    color: white;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center;
+} 
+
 
 /* STYLING EACH ROW */
 .row {
@@ -67,7 +94,10 @@ ORDERING FLEX ITEMS:
 - A VALUE THAT IS > 0 WILL PLACE THE ITEM AT THE END OF THE CONTAINER 
 - THIS HELPS FOR RESPONSIVE DESIGN BETWEEN MOBILE AND DESKTOP
 
-
+JUSTIFY CONTENT VALUES:
+- FLEX-START (DEFAULT)
+- FLEX-END
+- CENTER
 -------------------------------------------------------------------------*/
 
 
