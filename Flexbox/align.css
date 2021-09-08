@@ -1,0 +1,41 @@
+.boxa { background:#1abc9c;}
+.boxb { background:#3498db;}
+.boxc { background:#9b59b6;}
+.boxd { background:#34495e;}
+.boxe { background:#f1c40f;}
+.boxf { background:#e67e22;}
+.boxg { background:#e74c3c;}
+.boxh { background:#bdc3c7;}
+.boxi { background:#2ecc71;}
+.boxj { background:#16a085;}
+
+.container2 {
+    display: flex; /* OCCUPIES THE ENTIRE WIDTH OF THE SCREEN */
+    flex: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;   
+}
+
+.box2 {
+    width: 33.333%;
+    color: white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center;
+} 
+
+.boxd {
+    align-self: flex end;
+}
+
+
+/*---------------------------------------------------------------------
+
+JUSTIFY CONTENT VALUES:
+- FLEX-START (DEFAULT)
+- FLEX-END
+- CENTER
+
+
+---------------------------------------------------------------------*/
