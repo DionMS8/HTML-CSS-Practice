@@ -70,6 +70,7 @@
 
 
 
+
 /*---------------------------------------------------------------------
 
 JUSTIFY CONTENT VALUES:
@@ -78,6 +79,13 @@ JUSTIFY CONTENT VALUES:
 - CENTER
 
 
+- A PACKAGE.JSON FILE IS USED TO TRACK DEPENDENCIES AND PLUGINS AS WELL 
+AS VERSIONS WHICH NEED TO BE INSTALLED
+- IT IS CREATED WITH "NPM INIT" ON THE CLI
+
 
 
 ---------------------------------------------------------------------*/
+
+
+

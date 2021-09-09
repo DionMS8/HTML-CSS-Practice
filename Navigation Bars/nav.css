@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+  }  
+
 body {
     background: lightcoral;
 }
@@ -17,9 +21,8 @@ h1 {
     width: 95%;
     overflow: auto;
     background-color: rgb(8, 8, 185);
-    border: 5px solid black;
+    border: 2px solid black;
 }
-
 
 .navbar a {
     /* STYLING THE LAYOUT */
@@ -30,7 +33,7 @@ h1 {
     color: white;
     text-decoration: none;
     font-size: 17px;
-    border-right: 5px solid black;
+    border-right: 2px solid black;
 }
 
 
@@ -63,7 +66,7 @@ h1 {
     margin: 0 auto;
     background-image: linear-gradient(to right, white, yellow);
     padding: 8px;
-    border: 5px solid black;
+    border: 2px solid black;
 }
 
 .container::after {
@@ -116,11 +119,27 @@ nav a::before {
 }
 
 
-/*=====[NAVIGATION BAR 3]===========================================================================================================================*/
+/*=====[FLEXBOX NAVIGATION BAR 3]===========================================================================================================================*/
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+/* Flex Container */
+.flex-nav ul {
+    border:2px solid black;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
 
 
 
 /*=====[NAVIGATION BAR 4]=========================================================================================================================*/
+
 
 
 
