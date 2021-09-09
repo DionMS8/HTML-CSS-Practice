@@ -30,12 +30,54 @@
 }
 
 
+
+.container3 {
+    display: flex; /* OCCUPIES THE ENTIRE WIDTH OF THE SCREEN */
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    height: 100vh;
+    border: 12px solid rgb(250, 109, 132);
+}
+
+.box3 {
+    color: white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center;
+    flex-basis: 150px; 
+    flex-grow: 1;
+} 
+
+.boxaa { 
+    background:#2bd6b4;
+}
+
+.boxbb { 
+    background:#0f66a0;
+    flex-grow: 5;
+}
+
+.boxcc { 
+    background:#b230e6;
+}
+
+.boxdd { 
+    background:#e4d721;
+    flex-basis: 100px;
+}
+
+
+
+
 /*---------------------------------------------------------------------
 
 JUSTIFY CONTENT VALUES:
 - FLEX-START (DEFAULT)
 - FLEX-END
 - CENTER
+
+
 
 
 ---------------------------------------------------------------------*/
